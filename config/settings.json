@@ -1,0 +1,64 @@
+{
+  "timezone": "Asia/Shanghai",
+  "horizon_days": 30,
+  "title": "📅 未来 {days} 天财经日历",
+
+  "filters": {
+    "min_importance": 3,
+    "categories": ["monetary", "macro", "policy", "earnings", "extra", "breaking"],
+    "regions": [],
+    "sectors": [],
+    "exclude_rule_ids": ["us_jobless", "cn_politburo_monthly"],
+    "keyword_blacklist": []
+  },
+
+  "render": {
+    "max_events": 60,
+    "show_confidence": true,
+    "show_sectors": true,
+    "highlight_top": 5,
+    "group_by": "date",
+    "brief_min_importance": 5
+  },
+
+  "sources": {
+    "rules": { "enabled": true, "file": "config/rules.json" },
+    "manual": { "enabled": true, "file": "data/events_manual.json" },
+    "earnings": { "enabled": true, "file": "config/leaders.json", "industries": [] },
+    "http": []
+  },
+
+  "_http_source_example": {
+    "enabled": false,
+    "name": "示例：自定义 JSON 接口",
+    "url": "https://example.com/api/calendar?days=30",
+    "method": "GET",
+    "headers": {},
+    "root": "data.items",
+    "mapping": {
+      "name": "title",
+      "datetime": "publish_time",
+      "tz": "Asia/Shanghai",
+      "importance": "star",
+      "prev": "previous",
+      "forecast": "consensus",
+      "region": "country",
+      "category": "macro"
+    }
+  },
+
+  "holidays": {
+    "CN": ["2026-01-01", "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20",
+           "2026-04-06", "2026-05-01", "2026-06-19", "2026-09-25", "2026-10-01", "2026-10-02",
+           "2026-10-05", "2026-10-06", "2026-10-07"],
+    "US": ["2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25",
+           "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25"],
+    "EU": [],
+    "JP": [],
+    "GLOBAL": []
+  },
+
+  "channels_file": "config/channels.json",
+  "state_file": "data/state.json",
+  "output_dir": "out"
+}

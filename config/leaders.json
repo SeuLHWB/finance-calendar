@@ -1,0 +1,130 @@
+{
+  "version": "2026.08",
+  "_note": [
+    "按行业维护『能带动整个板块』的绝对龙头。",
+    "anchors 为该公司历年财报发布的典型 月-日（近似），confidence=medium；",
+    "confirmed 为已确认的精确日期（手动或抓取回填），优先级高于 anchors；",
+    "window_days 表示实际日期可能在 anchor 前后浮动的天数，用于生成『预计』文案。",
+    "session: bmo=盘前, amc=盘后, mid=盘中/收盘后公告。"
+  ],
+  "industries": {
+    "AI算力与半导体": [
+      { "code": "NVDA", "name": "英伟达", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["02-26", "05-28", "08-27", "11-19"], "window_days": 5,
+        "sectors": ["AI算力", "光模块", "PCB", "液冷温控", "服务器", "半导体设备", "电源"],
+        "note": "全球AI产业链风向标，财报后A股/港股算力链次日高开低走或共振是常态" },
+      { "code": "TSM", "name": "台积电", "market": "US", "importance": 5, "session": "bmo",
+        "anchors": ["01-15", "04-16", "07-16", "10-15"], "window_days": 3,
+        "sectors": ["半导体代工", "先进封装", "半导体设备", "IC设计"],
+        "note": "法说会给出资本开支指引，直接决定全球半导体设备板块景气度" },
+      { "code": "TSM-REV", "name": "台积电月度营收", "market": "TW", "importance": 3, "session": "mid",
+        "monthly_day": 10, "window_days": 2,
+        "sectors": ["半导体代工", "AI算力"],
+        "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标" },
+      { "code": "AVGO", "name": "博通", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["03-05", "06-05", "09-04", "12-11"], "window_days": 5,
+        "sectors": ["ASIC定制芯片", "AI网络", "光模块"], "note": "定制ASIC与AI网络的核心标的" },
+      { "code": "AMD", "name": "AMD", "market": "US", "importance": 4, "session": "amc",
+        "anchors": ["02-03", "05-05", "08-04", "11-03"], "window_days": 4, "sectors": ["GPU", "CPU", "服务器"] },
+      { "code": "ASML", "name": "阿斯麦", "market": "US", "importance": 4, "session": "bmo",
+        "anchors": ["01-28", "04-15", "07-15", "10-14"], "window_days": 3, "sectors": ["半导体设备", "光刻机"] },
+      { "code": "MU", "name": "美光", "market": "US", "importance": 4, "session": "amc",
+        "anchors": ["03-20", "06-25", "09-24", "12-18"], "window_days": 5,
+        "sectors": ["存储", "HBM", "DRAM", "模组"], "note": "存储周期风向标，带动A股存储链" },
+      { "code": "688981", "name": "中芯国际", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["02-11", "05-08", "08-07", "11-11"], "window_days": 5, "sectors": ["晶圆代工", "半导体国产化"] },
+      { "code": "002371", "name": "北方华创", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["03-28", "04-28", "08-28", "10-28"], "window_days": 6, "sectors": ["半导体设备", "国产替代"] },
+      { "code": "300308", "name": "中际旭创", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["04-20", "04-25", "08-25", "10-25"], "window_days": 6, "sectors": ["光模块", "AI算力", "CPO"] }
+    ],
+    "消费电子": [
+      { "code": "AAPL", "name": "苹果", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["01-30", "05-01", "07-31", "10-30"], "window_days": 4,
+        "sectors": ["消费电子", "苹果产业链", "面板", "声学", "结构件", "组装代工"],
+        "note": "同时关注每年 9 月上旬新品发布会，对产业链拉动大于财报本身" },
+      { "code": "002475", "name": "立讯精密", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["04-22", "04-22", "08-22", "10-25"], "window_days": 6, "sectors": ["苹果产业链", "消费电子", "AI硬件"] },
+      { "code": "1810", "name": "小米集团", "market": "HK", "importance": 4, "session": "mid",
+        "anchors": ["03-18", "05-27", "08-19", "11-18"], "window_days": 6, "sectors": ["消费电子", "智能汽车", "AIoT"] }
+    ],
+    "软件与云计算": [
+      { "code": "MSFT", "name": "微软", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["01-29", "04-29", "07-30", "10-29"], "window_days": 4,
+        "sectors": ["云计算", "AI应用", "算力资本开支"], "note": "Azure 增速与资本开支指引是算力链核心变量" },
+      { "code": "GOOGL", "name": "谷歌", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["02-04", "04-29", "07-23", "10-29"], "window_days": 4, "sectors": ["云计算", "AI", "互联网广告", "TPU链"] },
+      { "code": "AMZN", "name": "亚马逊", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["02-05", "05-01", "07-31", "10-30"], "window_days": 4, "sectors": ["云计算", "电商", "跨境电商", "物流"] },
+      { "code": "META", "name": "Meta", "market": "US", "importance": 4, "session": "amc",
+        "anchors": ["01-28", "04-29", "07-29", "10-28"], "window_days": 4, "sectors": ["互联网广告", "AI资本开支", "VR/AR"] }
+    ],
+    "新能源与汽车": [
+      { "code": "TSLA", "name": "特斯拉", "market": "US", "importance": 5, "session": "amc",
+        "anchors": ["01-28", "04-22", "07-23", "10-22"], "window_days": 4,
+        "sectors": ["新能源车", "锂电", "汽车零部件", "人形机器人", "自动驾驶"],
+        "note": "另有每季度初的交付量快报（1/4/7/10 月 2 日前后），对产业链影响同样显著" },
+      { "code": "300750", "name": "宁德时代", "market": "CN", "importance": 5, "session": "amc",
+        "anchors": ["03-15", "04-25", "07-26", "10-18"], "window_days": 6,
+        "sectors": ["锂电池", "锂电材料", "储能", "新能源车", "锂矿"],
+        "note": "A股新能源链定海神针，业绩与产能利用率指引带动整条锂电链" },
+      { "code": "002594", "name": "比亚迪", "market": "CN", "importance": 5, "session": "amc",
+        "anchors": ["03-25", "04-28", "08-28", "10-30"], "window_days": 6,
+        "sectors": ["新能源车", "汽车零部件", "功率半导体"], "note": "每月 1-3 日公布月度销量快报" },
+      { "code": "601012", "name": "隆基绿能", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["04-29", "04-29", "08-29", "10-29"], "window_days": 6, "sectors": ["光伏", "硅片", "组件", "BC电池"] }
+    ],
+    "白酒与消费": [
+      { "code": "600519", "name": "贵州茅台", "market": "CN", "importance": 5, "session": "amc",
+        "anchors": ["04-02", "04-29", "08-08", "10-25"], "window_days": 6,
+        "sectors": ["白酒", "食品饮料", "大消费", "核心资产"],
+        "note": "另有每年 1 月初的年度生产经营情况公告，对白酒板块指引作用极强" },
+      { "code": "000858", "name": "五粮液", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["04-27", "04-27", "08-28", "10-30"], "window_days": 6, "sectors": ["白酒", "食品饮料"] },
+      { "code": "WMT", "name": "沃尔玛", "market": "US", "importance": 3, "session": "bmo",
+        "anchors": ["02-20", "05-15", "08-21", "11-20"], "window_days": 4, "sectors": ["美股零售", "跨境电商", "消费"] }
+    ],
+    "互联网（港股）": [
+      { "code": "0700", "name": "腾讯控股", "market": "HK", "importance": 5, "session": "mid",
+        "anchors": ["03-19", "05-14", "08-13", "11-12"], "window_days": 5,
+        "sectors": ["港股互联网", "游戏", "广告", "云计算", "恒生科技"] },
+      { "code": "9988", "name": "阿里巴巴", "market": "HK", "importance": 5, "session": "bmo",
+        "anchors": ["02-20", "05-15", "08-29", "11-25"], "window_days": 6,
+        "sectors": ["港股互联网", "电商", "云计算", "AI"], "note": "财年 3 月结束，季度对应关系与自然季度不同" },
+      { "code": "3690", "name": "美团", "market": "HK", "importance": 4, "session": "mid",
+        "anchors": ["03-21", "05-26", "08-22", "11-21"], "window_days": 6, "sectors": ["本地生活", "港股互联网", "即时零售"] }
+    ],
+    "金融": [
+      { "code": "JPM", "name": "摩根大通", "market": "US", "importance": 4, "session": "bmo",
+        "anchors": ["01-14", "04-11", "07-15", "10-14"], "window_days": 3, "sectors": ["美股银行", "全球金融"], "note": "美股财报季首发，为整季定调" },
+      { "code": "601318", "name": "中国平安", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["03-18", "04-28", "08-22", "10-25"], "window_days": 6, "sectors": ["保险", "非银金融", "地产敞口"] },
+      { "code": "600036", "name": "招商银行", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["03-25", "04-29", "08-28", "10-29"], "window_days": 6, "sectors": ["银行", "零售金融", "红利资产"] },
+      { "code": "600030", "name": "中信证券", "market": "CN", "importance": 3, "session": "amc",
+        "anchors": ["03-27", "04-29", "08-28", "10-30"], "window_days": 6, "sectors": ["券商", "非银金融"] }
+    ],
+    "医药": [
+      { "code": "LLY", "name": "礼来", "market": "US", "importance": 4, "session": "bmo",
+        "anchors": ["02-06", "04-30", "08-06", "10-29"], "window_days": 4, "sectors": ["减肥药", "GLP-1产业链", "CXO", "创新药"] },
+      { "code": "600276", "name": "恒瑞医药", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["04-20", "04-25", "08-20", "10-25"], "window_days": 6, "sectors": ["创新药", "医药", "License-out"] },
+      { "code": "603259", "name": "药明康德", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["03-17", "04-28", "07-28", "10-27"], "window_days": 6, "sectors": ["CXO", "创新药产业链"] }
+    ],
+    "能源与资源": [
+      { "code": "XOM", "name": "埃克森美孚", "market": "US", "importance": 3, "session": "bmo",
+        "anchors": ["01-31", "05-02", "08-01", "10-31"], "window_days": 4, "sectors": ["原油", "石化", "能源"] },
+      { "code": "601899", "name": "紫金矿业", "market": "CN", "importance": 4, "session": "amc",
+        "anchors": ["03-22", "04-25", "08-22", "10-20"], "window_days": 6, "sectors": ["黄金", "铜", "有色金属"] },
+      { "code": "600900", "name": "长江电力", "market": "CN", "importance": 3, "session": "amc",
+        "anchors": ["04-25", "04-25", "08-28", "10-28"], "window_days": 6, "sectors": ["水电", "红利资产", "公用事业"] }
+    ],
+    "智能制造": [
+      { "code": "002415", "name": "海康威视", "market": "CN", "importance": 3, "session": "amc",
+        "anchors": ["04-19", "04-19", "08-15", "10-25"], "window_days": 6, "sectors": ["安防", "机器视觉", "AIoT"] },
+      { "code": "300124", "name": "汇川技术", "market": "CN", "importance": 3, "session": "amc",
+        "anchors": ["04-22", "04-22", "08-22", "10-25"], "window_days": 6, "sectors": ["工控自动化", "人形机器人", "新能源车电控"] }
+    ]
+  }
+}

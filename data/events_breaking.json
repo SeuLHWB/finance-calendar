@@ -1,0 +1,16 @@
+{
+  "_comment": "突发事件 · resolved=true 则不再显示。有真实事件时取消 resolved 或新增条目。",
+  "events": [
+    {
+      "name": "中东局势升级：伊朗-以色列冲突加剧，霍尔木兹海峡航运受阻",
+      "datetime": "2026-08-11",
+      "category": "breaking",
+      "region": "GLOBAL",
+      "importance": 5,
+      "sectors": ["原油", "贵金属", "军工", "航运", "全球风险资产"],
+      "note": "突发地缘政治事件，请密切关注事态发展",
+      "confidence": "high",
+      "resolved": true
+    }
+  ]
+}

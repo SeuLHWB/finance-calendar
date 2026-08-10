@@ -1,0 +1,7 @@
+config/channels.json
+data/state.json
+out/
+logs/
+__pycache__/
+*.pyc
+.venv/

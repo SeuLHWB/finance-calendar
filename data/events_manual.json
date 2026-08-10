@@ -1,0 +1,65 @@
+{
+  "_note": "手动补录事件。可用 `python run.py add` 追加，也可直接编辑。datetime 支持 'YYYY-MM-DD HH:MM' 或 'YYYY-MM-DD'(全天)。",
+  "events": [
+    {
+      "name": "美国中期选举",
+      "category": "policy",
+      "region": "US",
+      "datetime": "2026-11-03",
+      "tz": "America/New_York",
+      "importance": 5,
+      "sectors": ["美股全市场", "军工", "新能源", "医药", "关税受损/受益链", "人民币汇率"],
+      "note": "改选全部众议院席位与约三分之一参议院席位，决定后两年政策推进能力，对关税、财政与产业补贴路径影响巨大。",
+      "confidence": "high",
+      "source_url": ""
+    },
+    {
+      "name": "中共二十届五中全会（预计）",
+      "category": "policy",
+      "region": "CN",
+      "datetime": "2026-10-20",
+      "tz": "Asia/Shanghai",
+      "importance": 5,
+      "window": "预计 10 月下旬，具体日期以中央公告为准",
+      "sectors": ["全市场", "新质生产力", "科技自主", "改革主题"],
+      "note": "全会时点与议题需以官方公告为准，本条为占位提醒，收到正式通知后请更新。",
+      "confidence": "low"
+    },
+    {
+      "name": "APEC 领导人非正式会议（中国主办）",
+      "category": "policy",
+      "region": "CN",
+      "datetime": "2026-11-12",
+      "tz": "Asia/Shanghai",
+      "importance": 4,
+      "window": "预计 11 月中旬",
+      "sectors": ["主办地区域概念", "免税", "航空", "跨境贸易"],
+      "note": "2026 年 APEC 由中国主办，关注主场外交与区域经贸主题。日期待官方确认。",
+      "confidence": "low"
+    },
+    {
+      "name": "英伟达 GTC 大会",
+      "category": "extra",
+      "region": "US",
+      "datetime": "2027-03-16",
+      "tz": "America/Los_Angeles",
+      "importance": 4,
+      "window": "通常 3 月中旬，为期 4-5 天",
+      "sectors": ["AI算力", "GPU", "机器人", "自动驾驶", "光模块"],
+      "note": "黄仁勋主题演讲常发布下一代产品路线图，是AI链年度最重要的催化剂之一。",
+      "confidence": "low"
+    },
+    {
+      "name": "苹果秋季新品发布会（预计）",
+      "category": "extra",
+      "region": "US",
+      "datetime": "2026-09-09",
+      "tz": "America/Los_Angeles",
+      "importance": 4,
+      "window": "通常 9 月第二周",
+      "sectors": ["苹果产业链", "消费电子", "声学", "光学", "结构件", "组装代工"],
+      "note": "对A股苹果链的拉动通常大于苹果财报本身；发布会前一个月为预期博弈期。",
+      "confidence": "medium"
+    }
+  ]
+}

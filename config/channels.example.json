@@ -1,0 +1,79 @@
+{
+  "_readme": "复制本文件为 config/channels.json 并填入真实密钥。channels.json 已加入 .gitignore，不要提交到仓库。",
+
+  "file": {
+    "enabled": true,
+    "_desc": "本地落盘渠道，用于调试。会在 out/ 生成 markdown 与 html。"
+  },
+
+  "wecom_bot": {
+    "enabled": false,
+    "_desc": "【推荐】企业微信群机器人。群设置 → 群机器人 → 添加 → 复制 Webhook 地址。",
+    "webhook": "https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "msgtype": "markdown",
+    "mentioned_mobile_list": []
+  },
+
+  "wecom_app": {
+    "enabled": false,
+    "_desc": "企业微信自建应用消息，可推送到个人。需在『我的企业』拿 corpid，应用详情拿 secret/agentid，并配置企业可信IP。",
+    "corpid": "ww1234567890abcdef",
+    "corpsecret": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "agentid": 1000002,
+    "touser": "@all"
+  },
+
+  "serverchan": {
+    "enabled": false,
+    "_desc": "Server酱³ / Turbo。微信扫码登录 https://sct.ftqq.com 获取 SendKey，消息由『方糖』服务号下发到微信。免费版每天 5 条。",
+    "sendkey": "SCTxxxxxxxxxxxxxxxxxxxxxxxx"
+  },
+
+  "wxpusher": {
+    "enabled": false,
+    "_desc": "WxPusher https://wxpusher.zjiecode.com 建应用拿 appToken，用户扫码关注后拿 UID。",
+    "app_token": "AT_xxxxxxxxxxxxxxxxxxxx",
+    "uids": ["UID_xxxxxxxxxxxx"],
+    "topic_ids": []
+  },
+
+  "pushplus": {
+    "enabled": false,
+    "_desc": "PushPlus http://www.pushplus.plus 关注公众号获取 token。",
+    "token": "xxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "template": "markdown"
+  },
+
+  "email": {
+    "enabled": false,
+    "_desc": "SMTP 邮件，最稳的兜底渠道。Gmail/QQ/163 需使用应用专用密码或授权码。",
+    "smtp_host": "smtp.qq.com",
+    "smtp_port": 465,
+    "use_ssl": true,
+    "username": "you@qq.com",
+    "password": "授权码",
+    "from_addr": "you@qq.com",
+    "to_addrs": ["you@qq.com"]
+  },
+
+  "telegram": {
+    "enabled": false,
+    "_desc": "@BotFather 创建机器人拿 token；给机器人发条消息后访问 getUpdates 拿 chat_id。需要科学上网环境。",
+    "bot_token": "123456:ABC-DEF...",
+    "chat_id": "123456789",
+    "proxy": ""
+  },
+
+  "dingtalk": {
+    "enabled": false,
+    "_desc": "钉钉自定义机器人，加签模式需填 secret。",
+    "webhook": "https://oapi.dingtalk.com/robot/send?access_token=xxxx",
+    "secret": ""
+  },
+
+  "feishu": {
+    "enabled": false,
+    "_desc": "飞书自定义机器人 webhook。",
+    "webhook": "https://open.feishu.cn/open-apis/bot/v2/hook/xxxx"
+  }
+}
