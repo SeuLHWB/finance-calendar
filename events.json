@@ -1,0 +1,1241 @@
+[
+  {
+    "uid": "ebbdadf88d22",
+    "name": "台积电月度营收（TSM-REV）中报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "TW",
+    "datetime": "2026-08-10T14:00:00+08:00",
+    "tz": "Asia/Taipei",
+    "all_day": false,
+    "window": "预计 8月8-12日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体代工",
+      "AI算力"
+    ],
+    "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标",
+    "source": "earnings:TSM-REV",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "TSM-REV"
+    ]
+  },
+  {
+    "uid": "71c437ab7b62",
+    "name": "美国国债拍卖（10 年 / 30 年期为主）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-08-11T13:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8月8-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美债收益率",
+      "美股成长股",
+      "贵金属",
+      "REITs"
+    ],
+    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
+    "source": "rule:us_treasury_refunding",
+    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
+    "confidence": "medium",
+    "tags": [
+      "us_treasury_refunding"
+    ]
+  },
+  {
+    "uid": "a31d8db79c66",
+    "name": "MSCI 指数季度评审（公布日）",
+    "category": "extra",
+    "region": "GLOBAL",
+    "datetime": "2026-08-12T09:00:00+02:00",
+    "tz": "Europe/Zurich",
+    "all_day": true,
+    "window": "预计 8月10-15日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "A股外资重仓股",
+      "港股",
+      "被动资金流"
+    ],
+    "note": "公布纳入/剔除名单，生效日一般在当月最后一个交易日收盘后，被动资金调仓集中在生效日尾盘。",
+    "source": "rule:msci_review",
+    "source_url": "https://www.msci.com/index-review",
+    "confidence": "medium",
+    "tags": [
+      "msci_review"
+    ]
+  },
+  {
+    "uid": "2a3aba30c5cb",
+    "name": "中国社融 / 新增信贷 / M2(7月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-08-12T16:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8月9-15日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "非银金融",
+      "地产",
+      "基建"
+    ],
+    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
+    "source": "rule:cn_credit",
+    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
+    "confidence": "medium",
+    "tags": [
+      "cn_credit"
+    ]
+  },
+  {
+    "uid": "d82c859712bc",
+    "name": "美国 CPI 消费者物价指数(7月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-08-12T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8月10-14日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "原油",
+      "美元指数"
+    ],
+    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
+    "source": "rule:us_cpi",
+    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_cpi"
+    ]
+  },
+  {
+    "uid": "09a90a451839",
+    "name": "腾讯控股（0700）中报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-08-13T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 8/8 - 8/18，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "互联网（港股）",
+      "港股互联网",
+      "游戏",
+      "广告",
+      "云计算",
+      "恒生科技"
+    ],
+    "note": "",
+    "source": "earnings:0700",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "互联网（港股）",
+      "0700"
+    ]
+  },
+  {
+    "uid": "99a11a8b0e1a",
+    "name": "海康威视（002415）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-14T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/9 - 8/21，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "智能制造",
+      "安防",
+      "机器视觉",
+      "AIoT"
+    ],
+    "note": "",
+    "source": "earnings:002415",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "智能制造",
+      "002415"
+    ]
+  },
+  {
+    "uid": "2e9d399d88b7",
+    "name": "中国月度经济数据（工业增加值/固投/社零）(7月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-08-16T10:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8月15-18日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费",
+      "地产",
+      "基建",
+      "制造业"
+    ],
+    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
+    "source": "rule:cn_monthly_econ",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_monthly_econ"
+    ]
+  },
+  {
+    "uid": "d9a1d3561125",
+    "name": "美国 PPI 生产者物价指数(7月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-08-17T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8月12-17日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "工业金属",
+      "化工",
+      "美债"
+    ],
+    "note": "通常在 CPI 后 1-3 天公布，可用于推算 PCE。",
+    "source": "rule:us_ppi",
+    "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_ppi"
+    ]
+  },
+  {
+    "uid": "53f3ddcd4e18",
+    "name": "美国零售销售(7月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-08-17T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8月14-18日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "电商",
+      "跨境电商"
+    ],
+    "note": "衡量美国消费韧性。",
+    "source": "rule:us_retail",
+    "source_url": "https://www.census.gov/retail/",
+    "confidence": "medium",
+    "tags": [
+      "us_retail"
+    ]
+  },
+  {
+    "uid": "827358c88160",
+    "name": "小米集团（1810）中报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-08-19T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 8/13 - 8/25，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费电子",
+      "智能汽车",
+      "AIoT"
+    ],
+    "note": "",
+    "source": "earnings:1810",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "消费电子",
+      "1810"
+    ]
+  },
+  {
+    "uid": "b961be7c1530",
+    "name": "美联储 FOMC 会议纪要",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-08-19T14:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "贵金属",
+      "美债",
+      "美元指数"
+    ],
+    "note": "会议结束后三周整公布，用于确认票委内部分歧。",
+    "source": "rule:fomc_minutes",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_minutes"
+    ]
+  },
+  {
+    "uid": "ed132674124c",
+    "name": "中国 LPR 贷款市场报价利率(8月)",
+    "category": "monetary",
+    "region": "CN",
+    "datetime": "2026-08-20T09:15:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "地产",
+      "建材",
+      "家电",
+      "基建",
+      "消费"
+    ],
+    "note": "每月 20 日 9:15 公布 1 年期与 5 年期以上 LPR；遇节假日顺延。5 年期变动对地产链影响最大。",
+    "source": "rule:cn_lpr",
+    "source_url": "http://www.pbc.gov.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_lpr"
+    ]
+  },
+  {
+    "uid": "956b2d8499b0",
+    "name": "恒瑞医药（600276）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-20T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/14 - 8/26，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "医药",
+      "创新药",
+      "License-out"
+    ],
+    "note": "",
+    "source": "earnings:600276",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "医药",
+      "600276"
+    ]
+  },
+  {
+    "uid": "d90e7ac44385",
+    "name": "杰克逊霍尔全球央行年会",
+    "category": "monetary",
+    "region": "GLOBAL",
+    "datetime": "2026-08-20T09:00:00-05:00",
+    "tz": "America/Chicago",
+    "all_day": true,
+    "window": "8/20-8/22 三天，主席讲话通常在首日或次日上午",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美债",
+      "美元指数",
+      "全球风险资产"
+    ],
+    "note": "美联储主席讲话常释放政策转向信号，历史上多次成为行情拐点。",
+    "source": "rule:jackson_hole",
+    "source_url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
+    "confidence": "medium",
+    "tags": [
+      "jackson_hole"
+    ]
+  },
+  {
+    "uid": "447940ecf42f",
+    "name": "美团（3690）中报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-08-21T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 8/16 - 8/28，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "互联网（港股）",
+      "本地生活",
+      "港股互联网",
+      "即时零售"
+    ],
+    "note": "",
+    "source": "earnings:3690",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "互联网（港股）",
+      "3690"
+    ]
+  },
+  {
+    "uid": "ada3cef3711c",
+    "name": "A股股指期货 / 期权交割日(8月)",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-08-21T15:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "沪深300",
+      "中证500",
+      "中证1000",
+      "券商"
+    ],
+    "note": "IF/IH/IC/IM 与股指期权在每月第三个周五交割，尾盘常有『交割日效应』。",
+    "source": "rule:cn_index_futures_settle",
+    "source_url": "http://www.cffex.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_index_futures_settle"
+    ]
+  },
+  {
+    "uid": "d4e2a99c436b",
+    "name": "中国平安（601318）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-21T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/16 - 8/28，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "保险",
+      "非银金融",
+      "地产敞口"
+    ],
+    "note": "",
+    "source": "earnings:601318",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "601318"
+    ]
+  },
+  {
+    "uid": "d91aa094663d",
+    "name": "立讯精密（002475）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-21T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/16 - 8/28，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费电子",
+      "苹果产业链",
+      "AI硬件"
+    ],
+    "note": "",
+    "source": "earnings:002475",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "消费电子",
+      "002475"
+    ]
+  },
+  {
+    "uid": "ce0077d290a0",
+    "name": "紫金矿业（601899）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-21T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/16 - 8/28，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "能源与资源",
+      "黄金",
+      "铜",
+      "有色金属"
+    ],
+    "note": "",
+    "source": "earnings:601899",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "能源与资源",
+      "601899"
+    ]
+  },
+  {
+    "uid": "69853a2ab4fe",
+    "name": "汇川技术（300124）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-21T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/16 - 8/28，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "智能制造",
+      "工控自动化",
+      "人形机器人",
+      "新能源车电控"
+    ],
+    "note": "",
+    "source": "earnings:300124",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "智能制造",
+      "300124"
+    ]
+  },
+  {
+    "uid": "54213e1d8e10",
+    "name": "沃尔玛（WMT）Q2财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-08-21T07:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8/17 - 8/25，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "白酒与消费",
+      "美股零售",
+      "跨境电商",
+      "消费"
+    ],
+    "note": "",
+    "source": "earnings:WMT",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "白酒与消费",
+      "WMT"
+    ]
+  },
+  {
+    "uid": "d60a0a807b12",
+    "name": "中国央行 MLF 中期借贷便利操作(8月)",
+    "category": "monetary",
+    "region": "CN",
+    "datetime": "2026-08-25T09:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "债券",
+      "地产"
+    ],
+    "note": "2024 年 7 月起 MLF 操作移至每月 25 日左右，政策利率地位已让位于 7 天期逆回购利率，更多观察量而非价。",
+    "source": "rule:cn_mlf",
+    "source_url": "http://www.pbc.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_mlf"
+    ]
+  },
+  {
+    "uid": "5f798d4bfa6a",
+    "name": "中际旭创（300308）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-25T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/19 - 8/31，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "光模块",
+      "AI算力",
+      "CPO"
+    ],
+    "note": "",
+    "source": "earnings:300308",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "300308"
+    ]
+  },
+  {
+    "uid": "5fbc1e2d7fa2",
+    "name": "美国 GDP（初值/修正值/终值）(Q3GDP修正值)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-08-27T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "美债",
+      "原油",
+      "工业金属"
+    ],
+    "note": "每月最后一个周四附近发布上季度 GDP 的三次估算之一。",
+    "source": "rule:us_gdp",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "medium",
+    "tags": [
+      "us_gdp"
+    ]
+  },
+  {
+    "uid": "a2696a3c97c8",
+    "name": "英伟达（NVDA）Q2财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-08-27T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8/22 - 9/1，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "AI算力",
+      "光模块",
+      "PCB",
+      "液冷温控",
+      "服务器",
+      "半导体设备",
+      "电源"
+    ],
+    "note": "全球AI产业链风向标，财报后A股/港股算力链次日高开低走或共振是常态",
+    "source": "earnings:NVDA",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "NVDA"
+    ]
+  },
+  {
+    "uid": "b57e774eeb93",
+    "name": "阿里巴巴（9988）中报 · 美股盘前",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-08-28T07:30:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 8/23 - 9/4，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "互联网（港股）",
+      "港股互联网",
+      "电商",
+      "云计算",
+      "AI"
+    ],
+    "note": "财年 3 月结束，季度对应关系与自然季度不同",
+    "source": "earnings:9988",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "互联网（港股）",
+      "9988"
+    ]
+  },
+  {
+    "uid": "48233a2f4ad0",
+    "name": "比亚迪（002594）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "新能源车",
+      "汽车零部件",
+      "功率半导体"
+    ],
+    "note": "每月 1-3 日公布月度销量快报",
+    "source": "earnings:002594",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "002594"
+    ]
+  },
+  {
+    "uid": "3afd69a1bca3",
+    "name": "五粮液（000858）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "白酒与消费",
+      "白酒",
+      "食品饮料"
+    ],
+    "note": "",
+    "source": "earnings:000858",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "白酒与消费",
+      "000858"
+    ]
+  },
+  {
+    "uid": "e285146536a8",
+    "name": "北方华创（002371）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体设备",
+      "国产替代"
+    ],
+    "note": "",
+    "source": "earnings:002371",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "002371"
+    ]
+  },
+  {
+    "uid": "280ddc17cdd6",
+    "name": "招商银行（600036）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "银行",
+      "零售金融",
+      "红利资产"
+    ],
+    "note": "",
+    "source": "earnings:600036",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "600036"
+    ]
+  },
+  {
+    "uid": "3caf76fc01a0",
+    "name": "隆基绿能（601012）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/23 - 9/4，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "光伏",
+      "硅片",
+      "组件",
+      "BC电池"
+    ],
+    "note": "",
+    "source": "earnings:601012",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "601012"
+    ]
+  },
+  {
+    "uid": "ebafe33c167f",
+    "name": "中信证券（600030）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "券商",
+      "非银金融"
+    ],
+    "note": "",
+    "source": "earnings:600030",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "600030"
+    ]
+  },
+  {
+    "uid": "e26fd99b8752",
+    "name": "长江电力（600900）中报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-08-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 8/22 - 9/3，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "能源与资源",
+      "水电",
+      "红利资产",
+      "公用事业"
+    ],
+    "note": "",
+    "source": "earnings:600900",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "能源与资源",
+      "600900"
+    ]
+  },
+  {
+    "uid": "019275de486f",
+    "name": "美国 PCE 物价指数（美联储首选通胀指标）(7月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-08-28T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8月26-31日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "美元指数"
+    ],
+    "note": "月末公布，核心 PCE 同比是美联储 2% 通胀目标的锚。",
+    "source": "rule:us_pce",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "high",
+    "tags": [
+      "us_pce"
+    ]
+  },
+  {
+    "uid": "c9df059c453e",
+    "name": "中国官方制造业/非制造业 PMI(8月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-08-31T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "周期股",
+      "工程机械",
+      "钢铁",
+      "有色",
+      "券商"
+    ],
+    "note": "国家统计局每月最后一日发布（遇节假日会前移，如春节/国庆）。",
+    "source": "rule:cn_pmi_official",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_pmi_official"
+    ]
+  },
+  {
+    "uid": "29963d0ced0d",
+    "name": "A股中报披露截止日",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-08-31T20:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "A股全市场",
+      "小市值"
+    ],
+    "note": "8 月最后一周是中报密集披露期，业绩超预期/低于预期个股波动剧烈。",
+    "source": "rule:a_semi_deadline",
+    "source_url": "http://www.sse.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "a_semi_deadline"
+    ]
+  },
+  {
+    "uid": "632f33d65d93",
+    "name": "财新中国制造业 PMI(9月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-09-01T09:45:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "中小企业",
+      "出口链",
+      "制造业"
+    ],
+    "note": "样本偏中小型与出口型企业，与官方 PMI 常有背离。",
+    "source": "rule:cn_pmi_caixin",
+    "source_url": "https://www.caixinglobal.com/",
+    "confidence": "high",
+    "tags": [
+      "cn_pmi_caixin"
+    ]
+  },
+  {
+    "uid": "8a5a3a64c68a",
+    "name": "美国 ISM 制造业 PMI(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-01T10:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "工业金属",
+      "化工",
+      "机械",
+      "航运",
+      "原油"
+    ],
+    "note": "每月第一个工作日发布，荣枯线 50。",
+    "source": "rule:us_ism_mfg",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_mfg"
+    ]
+  },
+  {
+    "uid": "c59bff38e732",
+    "name": "美国 ISM 非制造业 PMI(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-03T10:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "服务业"
+    ],
+    "note": "每月第三个工作日发布。",
+    "source": "rule:us_ism_svc",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_svc"
+    ]
+  },
+  {
+    "uid": "f9c86b11b10d",
+    "name": "美国非农就业报告(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-04T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股科技",
+      "美债",
+      "美元指数",
+      "航运",
+      "有色"
+    ],
+    "note": "北京时间 20:30(夏令时)/21:30(冬令时)。同步公布失业率与时薪增速，是美联储决策的核心就业指标。",
+    "source": "rule:us_nfp",
+    "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "confidence": "high",
+    "tags": [
+      "us_nfp"
+    ]
+  },
+  {
+    "uid": "57ac5feda101",
+    "name": "博通（AVGO）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-09-04T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 8/30 - 9/9，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "ASIC定制芯片",
+      "AI网络",
+      "光模块"
+    ],
+    "note": "定制ASIC与AI网络的核心标的",
+    "source": "earnings:AVGO",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "AVGO"
+    ]
+  },
+  {
+    "uid": "9006facfac4c",
+    "name": "中国进出口数据（海关总署）(8月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-09-08T11:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 9月7-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "出口链",
+      "航运",
+      "家电",
+      "跨境电商",
+      "机械"
+    ],
+    "note": "关注对美出口与船舶/集装箱吞吐。",
+    "source": "rule:cn_trade",
+    "source_url": "http://www.customs.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_trade"
+    ]
+  },
+  {
+    "uid": "4610135bd441",
+    "name": "中国 CPI / PPI(8月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-09-09T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "食品饮料",
+      "农业",
+      "化工",
+      "钢铁",
+      "煤炭",
+      "银行"
+    ],
+    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
+    "source": "rule:cn_cpi_ppi",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_cpi_ppi"
+    ]
+  },
+  {
+    "uid": "46874ce59b86",
+    "name": "苹果秋季新品发布会（预计）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-09-09T09:00:00-07:00",
+    "tz": "America/Los_Angeles",
+    "all_day": true,
+    "window": "通常 9 月第二周",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "苹果产业链",
+      "消费电子",
+      "声学",
+      "光学",
+      "结构件",
+      "组装代工"
+    ],
+    "note": "对A股苹果链的拉动通常大于苹果财报本身；发布会前一个月为预期博弈期。",
+    "source": "manual",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": []
+  }
+]
