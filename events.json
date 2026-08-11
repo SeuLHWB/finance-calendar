@@ -1,32 +1,5 @@
 [
   {
-    "uid": "ebbdadf88d22",
-    "name": "台积电月度营收（TSM-REV）中报 · 盘中/收盘后",
-    "category": "earnings",
-    "region": "TW",
-    "datetime": "2026-08-10T14:00:00+08:00",
-    "tz": "Asia/Taipei",
-    "all_day": false,
-    "window": "预计 8月8-12日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "半导体代工",
-      "AI算力"
-    ],
-    "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标",
-    "source": "earnings:TSM-REV",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "TSM-REV"
-    ]
-  },
-  {
     "uid": "71c437ab7b62",
     "name": "美国国债拍卖（10 年 / 30 年期为主）",
     "category": "extra",
@@ -1237,5 +1210,60 @@
     "source_url": "",
     "confidence": "medium",
     "tags": []
+  },
+  {
+    "uid": "e58fa0e1bd4c",
+    "name": "台积电月度营收（TSM-REV） · 盘中/收盘后",
+    "category": "earnings",
+    "region": "TW",
+    "datetime": "2026-09-10T14:00:00+08:00",
+    "tz": "Asia/Taipei",
+    "all_day": false,
+    "window": "预计 9月8-12日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体代工",
+      "AI算力"
+    ],
+    "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标",
+    "source": "earnings:TSM-REV",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "TSM-REV"
+    ]
+  },
+  {
+    "uid": "1cc4d01228d2",
+    "name": "欧洲央行 ECB 议息会议",
+    "category": "monetary",
+    "region": "EU",
+    "datetime": "2026-09-10T14:15:00+02:00",
+    "tz": "Europe/Frankfurt",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "欧股",
+      "欧元",
+      "银行",
+      "奢侈品",
+      "汽车"
+    ],
+    "note": "14:15 公布利率决议，14:45 拉加德新闻发布会。日期请每年对照官网核对。",
+    "source": "rule:ecb_meeting",
+    "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+    "confidence": "medium",
+    "tags": [
+      "ecb_meeting"
+    ]
   }
 ]
