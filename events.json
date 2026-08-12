@@ -1,32 +1,5 @@
 [
   {
-    "uid": "71c437ab7b62",
-    "name": "美国国债拍卖（10 年 / 30 年期为主）",
-    "category": "extra",
-    "region": "US",
-    "datetime": "2026-08-11T13:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8月8-13日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美债收益率",
-      "美股成长股",
-      "贵金属",
-      "REITs"
-    ],
-    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
-    "source": "rule:us_treasury_refunding",
-    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
-    "confidence": "medium",
-    "tags": [
-      "us_treasury_refunding"
-    ]
-  },
-  {
     "uid": "a31d8db79c66",
     "name": "MSCI 指数季度评审（公布日）",
     "category": "extra",
@@ -1264,6 +1237,33 @@
     "confidence": "medium",
     "tags": [
       "ecb_meeting"
+    ]
+  },
+  {
+    "uid": "f0169eee16e5",
+    "name": "美国国债拍卖（10 年 / 30 年期为主）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-09-11T13:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 9月8-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美债收益率",
+      "美股成长股",
+      "贵金属",
+      "REITs"
+    ],
+    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
+    "source": "rule:us_treasury_refunding",
+    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
+    "confidence": "medium",
+    "tags": [
+      "us_treasury_refunding"
     ]
   }
 ]
