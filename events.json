@@ -1,86 +1,5 @@
 [
   {
-    "uid": "a31d8db79c66",
-    "name": "MSCI 指数季度评审（公布日）",
-    "category": "extra",
-    "region": "GLOBAL",
-    "datetime": "2026-08-12T09:00:00+02:00",
-    "tz": "Europe/Zurich",
-    "all_day": true,
-    "window": "预计 8月10-15日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "A股外资重仓股",
-      "港股",
-      "被动资金流"
-    ],
-    "note": "公布纳入/剔除名单，生效日一般在当月最后一个交易日收盘后，被动资金调仓集中在生效日尾盘。",
-    "source": "rule:msci_review",
-    "source_url": "https://www.msci.com/index-review",
-    "confidence": "medium",
-    "tags": [
-      "msci_review"
-    ]
-  },
-  {
-    "uid": "2a3aba30c5cb",
-    "name": "中国社融 / 新增信贷 / M2(7月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-08-12T16:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 8月9-15日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "非银金融",
-      "地产",
-      "基建"
-    ],
-    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
-    "source": "rule:cn_credit",
-    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
-    "confidence": "medium",
-    "tags": [
-      "cn_credit"
-    ]
-  },
-  {
-    "uid": "d82c859712bc",
-    "name": "美国 CPI 消费者物价指数(7月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-08-12T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8月10-14日 公布",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "贵金属",
-      "美股",
-      "美债",
-      "原油",
-      "美元指数"
-    ],
-    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
-    "source": "rule:us_cpi",
-    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
-    "confidence": "high",
-    "tags": [
-      "us_cpi"
-    ]
-  },
-  {
     "uid": "09a90a451839",
     "name": "腾讯控股（0700）中报 · 盘中/收盘后",
     "category": "earnings",
@@ -1264,6 +1183,33 @@
     "confidence": "medium",
     "tags": [
       "us_treasury_refunding"
+    ]
+  },
+  {
+    "uid": "cca422bb4174",
+    "name": "中国社融 / 新增信贷 / M2(8月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-09-12T16:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 9月9-15日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "非银金融",
+      "地产",
+      "基建"
+    ],
+    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
+    "source": "rule:cn_credit",
+    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
+    "confidence": "medium",
+    "tags": [
+      "cn_credit"
     ]
   }
 ]
