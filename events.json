@@ -1,35 +1,5 @@
 [
   {
-    "uid": "09a90a451839",
-    "name": "腾讯控股（0700）中报 · 盘中/收盘后",
-    "category": "earnings",
-    "region": "HK",
-    "datetime": "2026-08-13T12:00:00+08:00",
-    "tz": "Asia/Hong_Kong",
-    "all_day": false,
-    "window": "预计 8/8 - 8/18，以公司公告为准",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "互联网（港股）",
-      "港股互联网",
-      "游戏",
-      "广告",
-      "云计算",
-      "恒生科技"
-    ],
-    "note": "",
-    "source": "earnings:0700",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "互联网（港股）",
-      "0700"
-    ]
-  },
-  {
     "uid": "99a11a8b0e1a",
     "name": "海康威视（002415）中报 · 盘后",
     "category": "earnings",
