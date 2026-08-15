@@ -1181,5 +1181,33 @@
     "tags": [
       "cn_credit"
     ]
+  },
+  {
+    "uid": "9bbf9c8288e4",
+    "name": "美国 CPI 消费者物价指数(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-14T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 9月10-14日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "原油",
+      "美元指数"
+    ],
+    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
+    "source": "rule:us_cpi",
+    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_cpi"
+    ]
   }
 ]
