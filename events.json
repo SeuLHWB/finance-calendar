@@ -1,33 +1,5 @@
 [
   {
-    "uid": "99a11a8b0e1a",
-    "name": "海康威视（002415）中报 · 盘后",
-    "category": "earnings",
-    "region": "CN",
-    "datetime": "2026-08-14T16:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 8/9 - 8/21，以公司公告为准",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "智能制造",
-      "安防",
-      "机器视觉",
-      "AIoT"
-    ],
-    "note": "",
-    "source": "earnings:002415",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "智能制造",
-      "002415"
-    ]
-  },
-  {
     "uid": "2e9d399d88b7",
     "name": "中国月度经济数据（工业增加值/固投/社零）(7月)",
     "category": "macro",
@@ -1208,6 +1180,32 @@
     "confidence": "high",
     "tags": [
       "us_cpi"
+    ]
+  },
+  {
+    "uid": "61f3a4c58caf",
+    "name": "美国 PPI 生产者物价指数(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-15T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 9月12-17日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "工业金属",
+      "化工",
+      "美债"
+    ],
+    "note": "通常在 CPI 后 1-3 天公布，可用于推算 PCE。",
+    "source": "rule:us_ppi",
+    "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_ppi"
     ]
   }
 ]
