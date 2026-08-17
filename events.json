@@ -1,32 +1,5 @@
 [
   {
-    "uid": "2e9d399d88b7",
-    "name": "中国月度经济数据（工业增加值/固投/社零）(7月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-08-16T10:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 8月15-18日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "消费",
-      "地产",
-      "基建",
-      "制造业"
-    ],
-    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
-    "source": "rule:cn_monthly_econ",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_monthly_econ"
-    ]
-  },
-  {
     "uid": "d9a1d3561125",
     "name": "美国 PPI 生产者物价指数(7月)",
     "category": "macro",
@@ -1206,6 +1179,89 @@
     "confidence": "high",
     "tags": [
       "us_ppi"
+    ]
+  },
+  {
+    "uid": "d1fe7b282e91",
+    "name": "中国月度经济数据（工业增加值/固投/社零）(8月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-09-16T10:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 9月15-18日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费",
+      "地产",
+      "基建",
+      "制造业"
+    ],
+    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
+    "source": "rule:cn_monthly_econ",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_monthly_econ"
+    ]
+  },
+  {
+    "uid": "7c4c9110c8ea",
+    "name": "美国零售销售(8月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-09-16T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 9月14-18日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "电商",
+      "跨境电商"
+    ],
+    "note": "衡量美国消费韧性。",
+    "source": "rule:us_retail",
+    "source_url": "https://www.census.gov/retail/",
+    "confidence": "medium",
+    "tags": [
+      "us_retail"
+    ]
+  },
+  {
+    "uid": "4a95f9a1cb13",
+    "name": "美联储 FOMC 议息会议决议",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-09-16T14:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股科技",
+      "贵金属",
+      "银行",
+      "地产",
+      "美债",
+      "港股",
+      "A股外资敏感板块"
+    ],
+    "note": "北京时间次日凌晨 02:00 公布利率决议，02:30 鲍威尔新闻发布会；3/6/9/12 月会议附带经济预测摘要(SEP)与点阵图，影响更大。",
+    "source": "rule:fomc_meeting",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_meeting"
     ]
   }
 ]
