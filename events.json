@@ -1,57 +1,5 @@
 [
   {
-    "uid": "d9a1d3561125",
-    "name": "美国 PPI 生产者物价指数(7月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-08-17T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8月12-17日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "工业金属",
-      "化工",
-      "美债"
-    ],
-    "note": "通常在 CPI 后 1-3 天公布，可用于推算 PCE。",
-    "source": "rule:us_ppi",
-    "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
-    "confidence": "high",
-    "tags": [
-      "us_ppi"
-    ]
-  },
-  {
-    "uid": "53f3ddcd4e18",
-    "name": "美国零售销售(7月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-08-17T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8月14-18日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股消费",
-      "电商",
-      "跨境电商"
-    ],
-    "note": "衡量美国消费韧性。",
-    "source": "rule:us_retail",
-    "source_url": "https://www.census.gov/retail/",
-    "confidence": "medium",
-    "tags": [
-      "us_retail"
-    ]
-  },
-  {
     "uid": "827358c88160",
     "name": "小米集团（1810）中报 · 盘中/收盘后",
     "category": "earnings",
@@ -1262,6 +1210,31 @@
     "confidence": "high",
     "tags": [
       "fomc_meeting"
+    ]
+  },
+  {
+    "uid": "c1b5c44c1ea1",
+    "name": "英国央行 BOE 议息会议",
+    "category": "monetary",
+    "region": "UK",
+    "datetime": "2026-09-17T12:00:00+01:00",
+    "tz": "Europe/London",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "英镑",
+      "欧股"
+    ],
+    "note": "日期以官网为准。",
+    "source": "rule:boe_meeting",
+    "source_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "confidence": "medium",
+    "tags": [
+      "boe_meeting"
     ]
   }
 ]
