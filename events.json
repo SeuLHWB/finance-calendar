@@ -1236,5 +1236,109 @@
     "tags": [
       "boe_meeting"
     ]
+  },
+  {
+    "uid": "27e88c1030d8",
+    "name": "日本央行 BOJ 金融政策会议",
+    "category": "monetary",
+    "region": "JP",
+    "datetime": "2026-09-18T12:00:00+09:00",
+    "tz": "Asia/Tokyo",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "日元套息交易",
+      "日股",
+      "全球流动性",
+      "有色"
+    ],
+    "note": "决议时间不固定(约 11:30-13:00)，15:30 行长记者会。加息预期会引发日元套息平仓、全球风险资产波动。",
+    "source": "rule:boj_meeting",
+    "source_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+    "confidence": "medium",
+    "tags": [
+      "boj_meeting"
+    ]
+  },
+  {
+    "uid": "8ef03247083c",
+    "name": "A股股指期货 / 期权交割日(9月)",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-09-18T15:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "沪深300",
+      "中证500",
+      "中证1000",
+      "券商"
+    ],
+    "note": "IF/IH/IC/IM 与股指期权在每月第三个周五交割，尾盘常有『交割日效应』。",
+    "source": "rule:cn_index_futures_settle",
+    "source_url": "http://www.cffex.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_index_futures_settle"
+    ]
+  },
+  {
+    "uid": "9dd27bfa27f9",
+    "name": "富时罗素指数季度评审",
+    "category": "extra",
+    "region": "GLOBAL",
+    "datetime": "2026-09-18T09:00:00+01:00",
+    "tz": "Europe/London",
+    "all_day": true,
+    "window": "预计 9月15-21日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "A股外资重仓股",
+      "港股"
+    ],
+    "note": "生效日通常为当季第三个周五收盘后。",
+    "source": "rule:ftse_review",
+    "source_url": "https://www.lseg.com/en/ftse-russell",
+    "confidence": "medium",
+    "tags": [
+      "ftse_review"
+    ]
+  },
+  {
+    "uid": "82a8c5e64874",
+    "name": "美股四巫日（股指期货/期权/个股期货期权同时到期）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-09-18T16:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股全市场",
+      "波动率"
+    ],
+    "note": "四类衍生品同日到期，成交量激增、尾盘异动概率大；常伴随标普指数季度调仓。",
+    "source": "rule:quad_witching",
+    "source_url": "https://www.cboe.com/",
+    "confidence": "high",
+    "tags": [
+      "quad_witching"
+    ]
   }
 ]
