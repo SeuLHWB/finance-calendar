@@ -1,59 +1,5 @@
 [
   {
-    "uid": "827358c88160",
-    "name": "小米集团（1810）中报 · 盘中/收盘后",
-    "category": "earnings",
-    "region": "HK",
-    "datetime": "2026-08-19T12:00:00+08:00",
-    "tz": "Asia/Hong_Kong",
-    "all_day": false,
-    "window": "预计 8/13 - 8/25，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "消费电子",
-      "智能汽车",
-      "AIoT"
-    ],
-    "note": "",
-    "source": "earnings:1810",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "消费电子",
-      "1810"
-    ]
-  },
-  {
-    "uid": "b961be7c1530",
-    "name": "美联储 FOMC 会议纪要",
-    "category": "monetary",
-    "region": "US",
-    "datetime": "2026-08-19T14:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股",
-      "贵金属",
-      "美债",
-      "美元指数"
-    ],
-    "note": "会议结束后三周整公布，用于确认票委内部分歧。",
-    "source": "rule:fomc_minutes",
-    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-    "confidence": "high",
-    "tags": [
-      "fomc_minutes"
-    ]
-  },
-  {
     "uid": "ed132674124c",
     "name": "中国 LPR 贷款市场报价利率(8月)",
     "category": "monetary",
