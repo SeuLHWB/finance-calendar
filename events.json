@@ -28,33 +28,6 @@
     ]
   },
   {
-    "uid": "ada3cef3711c",
-    "name": "A股股指期货 / 期权交割日(8月)",
-    "category": "extra",
-    "region": "CN",
-    "datetime": "2026-08-21T15:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "沪深300",
-      "中证500",
-      "中证1000",
-      "券商"
-    ],
-    "note": "IF/IH/IC/IM 与股指期权在每月第三个周五交割，尾盘常有『交割日效应』。",
-    "source": "rule:cn_index_futures_settle",
-    "source_url": "http://www.cffex.com.cn/",
-    "confidence": "high",
-    "tags": [
-      "cn_index_futures_settle"
-    ]
-  },
-  {
     "uid": "d4e2a99c436b",
     "name": "中国平安（601318）中报 · 盘后",
     "category": "earnings",
@@ -163,34 +136,6 @@
     "tags": [
       "智能制造",
       "300124"
-    ]
-  },
-  {
-    "uid": "54213e1d8e10",
-    "name": "沃尔玛（WMT）Q2财报 · 美股盘前",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-08-21T07:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8/17 - 8/25，以公司公告为准",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "白酒与消费",
-      "美股零售",
-      "跨境电商",
-      "消费"
-    ],
-    "note": "",
-    "source": "earnings:WMT",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "白酒与消费",
-      "WMT"
     ]
   },
   {
@@ -1202,6 +1147,35 @@
     "confidence": "high",
     "tags": [
       "quad_witching"
+    ]
+  },
+  {
+    "uid": "cadaa3ca8131",
+    "name": "中国 LPR 贷款市场报价利率(9月)",
+    "category": "monetary",
+    "region": "CN",
+    "datetime": "2026-09-21T09:15:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "地产",
+      "建材",
+      "家电",
+      "基建",
+      "消费"
+    ],
+    "note": "每月 20 日 9:15 公布 1 年期与 5 年期以上 LPR；遇节假日顺延。5 年期变动对地产链影响最大。",
+    "source": "rule:cn_lpr",
+    "source_url": "http://www.pbc.gov.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_lpr"
     ]
   }
 ]
