@@ -1,59 +1,5 @@
 [
   {
-    "uid": "d60a0a807b12",
-    "name": "中国央行 MLF 中期借贷便利操作(8月)",
-    "category": "monetary",
-    "region": "CN",
-    "datetime": "2026-08-25T09:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "债券",
-      "地产"
-    ],
-    "note": "2024 年 7 月起 MLF 操作移至每月 25 日左右，政策利率地位已让位于 7 天期逆回购利率，更多观察量而非价。",
-    "source": "rule:cn_mlf",
-    "source_url": "http://www.pbc.gov.cn/",
-    "confidence": "medium",
-    "tags": [
-      "cn_mlf"
-    ]
-  },
-  {
-    "uid": "5f798d4bfa6a",
-    "name": "中际旭创（300308）中报 · 盘后",
-    "category": "earnings",
-    "region": "CN",
-    "datetime": "2026-08-25T16:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 8/19 - 8/31，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "光模块",
-      "AI算力",
-      "CPO"
-    ],
-    "note": "",
-    "source": "earnings:300308",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "300308"
-    ]
-  },
-  {
     "uid": "5fbc1e2d7fa2",
     "name": "美国 GDP（初值/修正值/终值）(Q3GDP修正值)",
     "category": "macro",
