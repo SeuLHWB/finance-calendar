@@ -1,58 +1,5 @@
 [
   {
-    "uid": "c9df059c453e",
-    "name": "中国官方制造业/非制造业 PMI(8月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-08-31T09:30:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "周期股",
-      "工程机械",
-      "钢铁",
-      "有色",
-      "券商"
-    ],
-    "note": "国家统计局每月最后一日发布（遇节假日会前移，如春节/国庆）。",
-    "source": "rule:cn_pmi_official",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_pmi_official"
-    ]
-  },
-  {
-    "uid": "29963d0ced0d",
-    "name": "A股中报披露截止日",
-    "category": "extra",
-    "region": "CN",
-    "datetime": "2026-08-31T20:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "A股全市场",
-      "小市值"
-    ],
-    "note": "8 月最后一周是中报密集披露期，业绩超预期/低于预期个股波动剧烈。",
-    "source": "rule:a_semi_deadline",
-    "source_url": "http://www.sse.com.cn/",
-    "confidence": "high",
-    "tags": [
-      "a_semi_deadline"
-    ]
-  },
-  {
     "uid": "632f33d65d93",
     "name": "财新中国制造业 PMI(9月)",
     "category": "macro",
@@ -811,6 +758,34 @@
     "confidence": "high",
     "tags": [
       "cn_pmi_official"
+    ]
+  },
+  {
+    "uid": "bf9482fa1b82",
+    "name": "美国 ISM 制造业 PMI(9月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-01T10:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "工业金属",
+      "化工",
+      "机械",
+      "航运",
+      "原油"
+    ],
+    "note": "每月第一个工作日发布，荣枯线 50。",
+    "source": "rule:us_ism_mfg",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_mfg"
     ]
   }
 ]
