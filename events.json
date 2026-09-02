@@ -1,59 +1,5 @@
 [
   {
-    "uid": "632f33d65d93",
-    "name": "财新中国制造业 PMI(9月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-09-01T09:45:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "中小企业",
-      "出口链",
-      "制造业"
-    ],
-    "note": "样本偏中小型与出口型企业，与官方 PMI 常有背离。",
-    "source": "rule:cn_pmi_caixin",
-    "source_url": "https://www.caixinglobal.com/",
-    "confidence": "high",
-    "tags": [
-      "cn_pmi_caixin"
-    ]
-  },
-  {
-    "uid": "8a5a3a64c68a",
-    "name": "美国 ISM 制造业 PMI(8月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-01T10:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "工业金属",
-      "化工",
-      "机械",
-      "航运",
-      "原油"
-    ],
-    "note": "每月第一个工作日发布，荣枯线 50。",
-    "source": "rule:us_ism_mfg",
-    "source_url": "https://www.ismworld.org/",
-    "confidence": "high",
-    "tags": [
-      "us_ism_mfg"
-    ]
-  },
-  {
     "uid": "c59bff38e732",
     "name": "美国 ISM 非制造业 PMI(8月)",
     "category": "macro",
@@ -786,6 +732,35 @@
     "confidence": "high",
     "tags": [
       "us_ism_mfg"
+    ]
+  },
+  {
+    "uid": "b9d669e2c6fd",
+    "name": "美国非农就业报告(9月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-02T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股科技",
+      "美债",
+      "美元指数",
+      "航运",
+      "有色"
+    ],
+    "note": "北京时间 20:30(夏令时)/21:30(冬令时)。同步公布失业率与时薪增速，是美联储决策的核心就业指标。",
+    "source": "rule:us_nfp",
+    "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "confidence": "high",
+    "tags": [
+      "us_nfp"
     ]
   }
 ]
