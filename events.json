@@ -762,5 +762,33 @@
     "tags": [
       "us_nfp"
     ]
+  },
+  {
+    "uid": "000a0433bf05",
+    "name": "OPEC+ 部长级 / JMMC 产量会议",
+    "category": "extra",
+    "region": "GLOBAL",
+    "datetime": "2026-10-03T09:00:00+02:00",
+    "tz": "Europe/Berlin",
+    "all_day": true,
+    "window": "预计 10月1-6日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "原油",
+      "石化",
+      "油服",
+      "航空",
+      "航运"
+    ],
+    "note": "2025 年后多为线上会议、日期临时确定，务必以官网公告为准；增产/减产决定直接冲击油价。",
+    "source": "rule:opec_meeting",
+    "source_url": "https://www.opec.org/opec_web/en/press_room/calendar.htm",
+    "confidence": "low",
+    "tags": [
+      "opec_meeting"
+    ]
   }
 ]
