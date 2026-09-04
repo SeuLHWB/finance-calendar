@@ -1,30 +1,5 @@
 [
   {
-    "uid": "c59bff38e732",
-    "name": "美国 ISM 非制造业 PMI(8月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-03T10:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股消费",
-      "服务业"
-    ],
-    "note": "每月第三个工作日发布。",
-    "source": "rule:us_ism_svc",
-    "source_url": "https://www.ismworld.org/",
-    "confidence": "high",
-    "tags": [
-      "us_ism_svc"
-    ]
-  },
-  {
     "uid": "f9c86b11b10d",
     "name": "美国非农就业报告(8月)",
     "category": "macro",
