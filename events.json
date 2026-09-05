@@ -1,62 +1,5 @@
 [
   {
-    "uid": "f9c86b11b10d",
-    "name": "美国非农就业报告(8月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-04T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "贵金属",
-      "美股科技",
-      "美债",
-      "美元指数",
-      "航运",
-      "有色"
-    ],
-    "note": "北京时间 20:30(夏令时)/21:30(冬令时)。同步公布失业率与时薪增速，是美联储决策的核心就业指标。",
-    "source": "rule:us_nfp",
-    "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
-    "confidence": "high",
-    "tags": [
-      "us_nfp"
-    ]
-  },
-  {
-    "uid": "57ac5feda101",
-    "name": "博通（AVGO）Q3财报 · 盘后",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-09-04T16:20:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 8/30 - 9/9，以公司公告为准",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "ASIC定制芯片",
-      "AI网络",
-      "光模块"
-    ],
-    "note": "定制ASIC与AI网络的核心标的",
-    "source": "earnings:AVGO",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "AVGO"
-    ]
-  },
-  {
     "uid": "9006facfac4c",
     "name": "中国进出口数据（海关总署）(8月)",
     "category": "macro",
@@ -764,6 +707,31 @@
     "confidence": "low",
     "tags": [
       "opec_meeting"
+    ]
+  },
+  {
+    "uid": "0ea149bf9b3a",
+    "name": "美国 ISM 非制造业 PMI(9月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-05T10:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "服务业"
+    ],
+    "note": "每月第三个工作日发布。",
+    "source": "rule:us_ism_svc",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_svc"
     ]
   }
 ]
