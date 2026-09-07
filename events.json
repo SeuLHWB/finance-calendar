@@ -733,5 +733,32 @@
     "tags": [
       "us_ism_svc"
     ]
+  },
+  {
+    "uid": "b55e4e429107",
+    "name": "美联储 FOMC 会议纪要",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-10-07T14:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "贵金属",
+      "美债",
+      "美元指数"
+    ],
+    "note": "会议结束后三周整公布，用于确认票委内部分歧。",
+    "source": "rule:fomc_minutes",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_minutes"
+    ]
   }
 ]
