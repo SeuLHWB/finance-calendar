@@ -760,5 +760,59 @@
     "tags": [
       "fomc_minutes"
     ]
+  },
+  {
+    "uid": "b92fd6b0e5c3",
+    "name": "财新中国制造业 PMI(10月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-10-08T09:45:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "中小企业",
+      "出口链",
+      "制造业"
+    ],
+    "note": "样本偏中小型与出口型企业，与官方 PMI 常有背离。",
+    "source": "rule:cn_pmi_caixin",
+    "source_url": "https://www.caixinglobal.com/",
+    "confidence": "high",
+    "tags": [
+      "cn_pmi_caixin"
+    ]
+  },
+  {
+    "uid": "1ebb2d80b36e",
+    "name": "中国进出口数据（海关总署）(9月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-10-08T11:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10月7-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "出口链",
+      "航运",
+      "家电",
+      "跨境电商",
+      "机械"
+    ],
+    "note": "关注对美出口与船舶/集装箱吞吐。",
+    "source": "rule:cn_trade",
+    "source_url": "http://www.customs.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_trade"
+    ]
   }
 ]
