@@ -1,33 +1,5 @@
 [
   {
-    "uid": "9006facfac4c",
-    "name": "中国进出口数据（海关总署）(8月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-09-08T11:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 9月7-13日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "出口链",
-      "航运",
-      "家电",
-      "跨境电商",
-      "机械"
-    ],
-    "note": "关注对美出口与船舶/集装箱吞吐。",
-    "source": "rule:cn_trade",
-    "source_url": "http://www.customs.gov.cn/",
-    "confidence": "medium",
-    "tags": [
-      "cn_trade"
-    ]
-  },
-  {
     "uid": "4610135bd441",
     "name": "中国 CPI / PPI(8月)",
     "category": "macro",
@@ -813,6 +785,35 @@
     "confidence": "medium",
     "tags": [
       "cn_trade"
+    ]
+  },
+  {
+    "uid": "0e0b27337c06",
+    "name": "中国 CPI / PPI(9月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-10-09T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "食品饮料",
+      "农业",
+      "化工",
+      "钢铁",
+      "煤炭",
+      "银行"
+    ],
+    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
+    "source": "rule:cn_cpi_ppi",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_cpi_ppi"
     ]
   }
 ]
