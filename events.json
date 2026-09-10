@@ -1,61 +1,5 @@
 [
   {
-    "uid": "4610135bd441",
-    "name": "中国 CPI / PPI(8月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-09-09T09:30:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "食品饮料",
-      "农业",
-      "化工",
-      "钢铁",
-      "煤炭",
-      "银行"
-    ],
-    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
-    "source": "rule:cn_cpi_ppi",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_cpi_ppi"
-    ]
-  },
-  {
-    "uid": "46874ce59b86",
-    "name": "苹果秋季新品发布会（预计）",
-    "category": "extra",
-    "region": "US",
-    "datetime": "2026-09-09T09:00:00-07:00",
-    "tz": "America/Los_Angeles",
-    "all_day": true,
-    "window": "通常 9 月第二周",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "苹果产业链",
-      "消费电子",
-      "声学",
-      "光学",
-      "结构件",
-      "组装代工"
-    ],
-    "note": "对A股苹果链的拉动通常大于苹果财报本身；发布会前一个月为预期博弈期。",
-    "source": "manual",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": []
-  },
-  {
     "uid": "e58fa0e1bd4c",
     "name": "台积电月度营收（TSM-REV） · 盘中/收盘后",
     "category": "earnings",
@@ -814,6 +758,33 @@
     "confidence": "high",
     "tags": [
       "cn_cpi_ppi"
+    ]
+  },
+  {
+    "uid": "bca2d2d6fdd3",
+    "name": "台积电月度营收（TSM-REV）三季报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "TW",
+    "datetime": "2026-10-09T14:00:00+08:00",
+    "tz": "Asia/Taipei",
+    "all_day": false,
+    "window": "预计 10月8-12日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体代工",
+      "AI算力"
+    ],
+    "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标",
+    "source": "earnings:TSM-REV",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "TSM-REV"
     ]
   }
 ]
