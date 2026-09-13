@@ -1,32 +1,5 @@
 [
   {
-    "uid": "cca422bb4174",
-    "name": "中国社融 / 新增信贷 / M2(8月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-09-12T16:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 9月9-15日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "非银金融",
-      "地产",
-      "基建"
-    ],
-    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
-    "source": "rule:cn_credit",
-    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
-    "confidence": "medium",
-    "tags": [
-      "cn_credit"
-    ]
-  },
-  {
     "uid": "9bbf9c8288e4",
     "name": "美国 CPI 消费者物价指数(8月)",
     "category": "macro",
