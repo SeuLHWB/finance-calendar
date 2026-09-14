@@ -759,5 +759,84 @@
     "tags": [
       "us_treasury_refunding"
     ]
+  },
+  {
+    "uid": "34fca1ab9921",
+    "name": "美股财报季开启（大型银行打头阵）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-10-14T07:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10月12-16日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股银行",
+      "美股全市场"
+    ],
+    "note": "摩根大通/花旗/富国等率先发布，为财报季定调。",
+    "source": "rule:us_earnings_season",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "us_earnings_season"
+    ]
+  },
+  {
+    "uid": "8614dac0fe60",
+    "name": "摩根大通（JPM）Q3财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-14T07:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/11 - 10/17，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "美股银行",
+      "全球金融"
+    ],
+    "note": "美股财报季首发，为整季定调",
+    "source": "earnings:JPM",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "JPM"
+    ]
+  },
+  {
+    "uid": "704732486913",
+    "name": "阿斯麦（ASML）Q3财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-14T07:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/11 - 10/17，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体设备",
+      "光刻机"
+    ],
+    "note": "",
+    "source": "earnings:ASML",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "ASML"
+    ]
   }
 ]
