@@ -1,31 +1,5 @@
 [
   {
-    "uid": "61f3a4c58caf",
-    "name": "美国 PPI 生产者物价指数(8月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-15T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 9月12-17日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "工业金属",
-      "化工",
-      "美债"
-    ],
-    "note": "通常在 CPI 后 1-3 天公布，可用于推算 PCE。",
-    "source": "rule:us_ppi",
-    "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
-    "confidence": "high",
-    "tags": [
-      "us_ppi"
-    ]
-  },
-  {
     "uid": "d1fe7b282e91",
     "name": "中国月度经济数据（工业增加值/固投/社零）(8月)",
     "category": "macro",
@@ -864,6 +838,86 @@
     "confidence": "high",
     "tags": [
       "us_ppi"
+    ]
+  },
+  {
+    "uid": "59940402d944",
+    "name": "中国月度经济数据（工业增加值/固投/社零）(9月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-10-16T10:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10月15-18日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费",
+      "地产",
+      "基建",
+      "制造业"
+    ],
+    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
+    "source": "rule:cn_monthly_econ",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_monthly_econ"
+    ]
+  },
+  {
+    "uid": "f7f9fd10b89a",
+    "name": "A股股指期货 / 期权交割日(10月)",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-10-16T15:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "沪深300",
+      "中证500",
+      "中证1000",
+      "券商"
+    ],
+    "note": "IF/IH/IC/IM 与股指期权在每月第三个周五交割，尾盘常有『交割日效应』。",
+    "source": "rule:cn_index_futures_settle",
+    "source_url": "http://www.cffex.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_index_futures_settle"
+    ]
+  },
+  {
+    "uid": "034908bc53ac",
+    "name": "美国零售销售(9月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-16T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10月14-18日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "电商",
+      "跨境电商"
+    ],
+    "note": "衡量美国消费韧性。",
+    "source": "rule:us_retail",
+    "source_url": "https://www.census.gov/retail/",
+    "confidence": "medium",
+    "tags": [
+      "us_retail"
     ]
   }
 ]
