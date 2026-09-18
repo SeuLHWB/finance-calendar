@@ -1,30 +1,5 @@
 [
   {
-    "uid": "c1b5c44c1ea1",
-    "name": "英国央行 BOE 议息会议",
-    "category": "monetary",
-    "region": "UK",
-    "datetime": "2026-09-17T12:00:00+01:00",
-    "tz": "Europe/London",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "英镑",
-      "欧股"
-    ],
-    "note": "日期以官网为准。",
-    "source": "rule:boe_meeting",
-    "source_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
-    "confidence": "medium",
-    "tags": [
-      "boe_meeting"
-    ]
-  },
-  {
     "uid": "27e88c1030d8",
     "name": "日本央行 BOJ 金融政策会议",
     "category": "monetary",
@@ -861,6 +836,36 @@
     "confidence": "high",
     "tags": [
       "cn_gdp"
+    ]
+  },
+  {
+    "uid": "d4a3d3fc088f",
+    "name": "宁德时代（300750）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-19T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/12 - 10/24，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "锂电池",
+      "锂电材料",
+      "储能",
+      "新能源车",
+      "锂矿"
+    ],
+    "note": "A股新能源链定海神针，业绩与产能利用率指引带动整条锂电链",
+    "source": "earnings:300750",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "300750"
     ]
   }
 ]
