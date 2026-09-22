@@ -1,34 +1,5 @@
 [
   {
-    "uid": "cadaa3ca8131",
-    "name": "中国 LPR 贷款市场报价利率(9月)",
-    "category": "monetary",
-    "region": "CN",
-    "datetime": "2026-09-21T09:15:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "地产",
-      "建材",
-      "家电",
-      "基建",
-      "消费"
-    ],
-    "note": "每月 20 日 9:15 公布 1 年期与 5 年期以上 LPR；遇节假日顺延。5 年期变动对地产链影响最大。",
-    "source": "rule:cn_lpr",
-    "source_url": "http://www.pbc.gov.cn/",
-    "confidence": "high",
-    "tags": [
-      "cn_lpr"
-    ]
-  },
-  {
     "uid": "f88dab7cd5e4",
     "name": "中国央行 MLF 中期借贷便利操作(9月)",
     "category": "monetary",
@@ -844,6 +815,36 @@
     "tags": [
       "能源与资源",
       "601899"
+    ]
+  },
+  {
+    "uid": "0431223165fd",
+    "name": "特斯拉（TSLA）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-22T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/18 - 10/26，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "新能源车",
+      "锂电",
+      "汽车零部件",
+      "人形机器人",
+      "自动驾驶"
+    ],
+    "note": "另有每季度初的交付量快报（1/4/7/10 月 2 日前后），对产业链影响同样显著",
+    "source": "earnings:TSLA",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "TSLA"
     ]
   }
 ]
