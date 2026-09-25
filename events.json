@@ -1,87 +1,5 @@
 [
   {
-    "uid": "f88dab7cd5e4",
-    "name": "中国央行 MLF 中期借贷便利操作(9月)",
-    "category": "monetary",
-    "region": "CN",
-    "datetime": "2026-09-24T09:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "债券",
-      "地产"
-    ],
-    "note": "2024 年 7 月起 MLF 操作移至每月 25 日左右，政策利率地位已让位于 7 天期逆回购利率，更多观察量而非价。",
-    "source": "rule:cn_mlf",
-    "source_url": "http://www.pbc.gov.cn/",
-    "confidence": "medium",
-    "tags": [
-      "cn_mlf"
-    ]
-  },
-  {
-    "uid": "2b285d6e0607",
-    "name": "美国 GDP（初值/修正值/终值）(Q3GDP修正值)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-24T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股",
-      "美债",
-      "原油",
-      "工业金属"
-    ],
-    "note": "每月最后一个周四附近发布上季度 GDP 的三次估算之一。",
-    "source": "rule:us_gdp",
-    "source_url": "https://www.bea.gov/news/schedule",
-    "confidence": "medium",
-    "tags": [
-      "us_gdp"
-    ]
-  },
-  {
-    "uid": "3324d9ae9050",
-    "name": "美光（MU）Q3财报 · 盘后",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-09-24T16:20:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 9/19 - 9/29，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "存储",
-      "HBM",
-      "DRAM",
-      "模组"
-    ],
-    "note": "存储周期风向标，带动A股存储链",
-    "source": "earnings:MU",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "MU"
-    ]
-  },
-  {
     "uid": "75dc68595fd0",
     "name": "美国 PCE 物价指数（美联储首选通胀指标）(8月)",
     "category": "macro",
@@ -871,6 +789,201 @@
     "confidence": "medium",
     "tags": [
       "cn_mlf"
+    ]
+  },
+  {
+    "uid": "c18c217e43cd",
+    "name": "贵州茅台（600519）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "白酒与消费",
+      "白酒",
+      "食品饮料",
+      "大消费",
+      "核心资产"
+    ],
+    "note": "另有每年 1 月初的年度生产经营情况公告，对白酒板块指引作用极强",
+    "source": "earnings:600519",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "白酒与消费",
+      "600519"
+    ]
+  },
+  {
+    "uid": "5788569a37a4",
+    "name": "中国平安（601318）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "保险",
+      "非银金融",
+      "地产敞口"
+    ],
+    "note": "",
+    "source": "earnings:601318",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "601318"
+    ]
+  },
+  {
+    "uid": "453e490a73cc",
+    "name": "中际旭创（300308）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "光模块",
+      "AI算力",
+      "CPO"
+    ],
+    "note": "",
+    "source": "earnings:300308",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "300308"
+    ]
+  },
+  {
+    "uid": "2e0ae685cfa2",
+    "name": "恒瑞医药（600276）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "医药",
+      "创新药",
+      "License-out"
+    ],
+    "note": "",
+    "source": "earnings:600276",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "医药",
+      "600276"
+    ]
+  },
+  {
+    "uid": "33d17c99d108",
+    "name": "立讯精密（002475）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费电子",
+      "苹果产业链",
+      "AI硬件"
+    ],
+    "note": "",
+    "source": "earnings:002475",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "消费电子",
+      "002475"
+    ]
+  },
+  {
+    "uid": "e6e618c539bc",
+    "name": "汇川技术（300124）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "智能制造",
+      "工控自动化",
+      "人形机器人",
+      "新能源车电控"
+    ],
+    "note": "",
+    "source": "earnings:300124",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "智能制造",
+      "300124"
+    ]
+  },
+  {
+    "uid": "d5953986a1a2",
+    "name": "海康威视（002415）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-26T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/19 - 10/31，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "智能制造",
+      "安防",
+      "机器视觉",
+      "AIoT"
+    ],
+    "note": "",
+    "source": "earnings:002415",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "智能制造",
+      "002415"
     ]
   }
 ]
