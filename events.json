@@ -985,5 +985,32 @@
       "智能制造",
       "002415"
     ]
+  },
+  {
+    "uid": "9ee2508799ef",
+    "name": "药明康德（603259）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-27T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/21 - 11/2，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "医药",
+      "CXO",
+      "创新药产业链"
+    ],
+    "note": "",
+    "source": "earnings:603259",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "医药",
+      "603259"
+    ]
   }
 ]
