@@ -1012,5 +1012,172 @@
       "医药",
       "603259"
     ]
+  },
+  {
+    "uid": "aca29826aeae",
+    "name": "中共中央政治局会议（经济主题）",
+    "category": "policy",
+    "region": "CN",
+    "datetime": "2026-10-28T09:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": true,
+    "window": "预计 10月24-30日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "全市场",
+      "地产",
+      "消费",
+      "资本市场"
+    ],
+    "note": "4 月、7 月、10 月底的政治局会议分析研究经济形势，常成为政策拐点信号（12 月会议见中央经济工作会议）。",
+    "source": "rule:cn_politburo_econ",
+    "source_url": "https://www.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_politburo_econ"
+    ]
+  },
+  {
+    "uid": "9c7ad412196f",
+    "name": "北方华创（002371）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/22 - 11/3，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "半导体设备",
+      "国产替代"
+    ],
+    "note": "",
+    "source": "earnings:002371",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "002371"
+    ]
+  },
+  {
+    "uid": "69ec96c34a15",
+    "name": "长江电力（600900）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-28T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/22 - 11/3，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "能源与资源",
+      "水电",
+      "红利资产",
+      "公用事业"
+    ],
+    "note": "",
+    "source": "earnings:600900",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "能源与资源",
+      "600900"
+    ]
+  },
+  {
+    "uid": "67ad7fa30c10",
+    "name": "美国 PCE 物价指数（美联储首选通胀指标）(9月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-28T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10月26-31日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "美元指数"
+    ],
+    "note": "月末公布，核心 PCE 同比是美联储 2% 通胀目标的锚。",
+    "source": "rule:us_pce",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "high",
+    "tags": [
+      "us_pce"
+    ]
+  },
+  {
+    "uid": "07f8e22459d7",
+    "name": "美联储 FOMC 议息会议决议",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-10-28T14:00:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股科技",
+      "贵金属",
+      "银行",
+      "地产",
+      "美债",
+      "港股",
+      "A股外资敏感板块"
+    ],
+    "note": "北京时间次日凌晨 02:00 公布利率决议，02:30 鲍威尔新闻发布会；3/6/9/12 月会议附带经济预测摘要(SEP)与点阵图，影响更大。",
+    "source": "rule:fomc_meeting",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_meeting"
+    ]
+  },
+  {
+    "uid": "b31335c0554f",
+    "name": "Meta（META）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-28T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/24 - 11/1，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "软件与云计算",
+      "互联网广告",
+      "AI资本开支",
+      "VR/AR"
+    ],
+    "note": "",
+    "source": "earnings:META",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "软件与云计算",
+      "META"
+    ]
   }
 ]
