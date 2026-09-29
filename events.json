@@ -1,32 +1,5 @@
 [
   {
-    "uid": "75dc68595fd0",
-    "name": "美国 PCE 物价指数（美联储首选通胀指标）(8月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-09-28T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 9月26-30日 公布",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "贵金属",
-      "美股",
-      "美债",
-      "美元指数"
-    ],
-    "note": "月末公布，核心 PCE 同比是美联储 2% 通胀目标的锚。",
-    "source": "rule:us_pce",
-    "source_url": "https://www.bea.gov/news/schedule",
-    "confidence": "high",
-    "tags": [
-      "us_pce"
-    ]
-  },
-  {
     "uid": "df7b4ceb8140",
     "name": "中国官方制造业/非制造业 PMI(9月)",
     "category": "macro",
@@ -1178,6 +1151,204 @@
     "tags": [
       "软件与云计算",
       "META"
+    ]
+  },
+  {
+    "uid": "29424c4eb165",
+    "name": "招商银行（600036）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-29T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/23 - 11/4，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "银行",
+      "零售金融",
+      "红利资产"
+    ],
+    "note": "",
+    "source": "earnings:600036",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "600036"
+    ]
+  },
+  {
+    "uid": "dd22cb1a5824",
+    "name": "隆基绿能（601012）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-29T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/23 - 11/4，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "光伏",
+      "硅片",
+      "组件",
+      "BC电池"
+    ],
+    "note": "",
+    "source": "earnings:601012",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "601012"
+    ]
+  },
+  {
+    "uid": "9b0841280a49",
+    "name": "礼来（LLY）Q3财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-29T07:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/25 - 11/2，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "医药",
+      "减肥药",
+      "GLP-1产业链",
+      "CXO",
+      "创新药"
+    ],
+    "note": "",
+    "source": "earnings:LLY",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "医药",
+      "LLY"
+    ]
+  },
+  {
+    "uid": "276cf9703f95",
+    "name": "美国 GDP（初值/修正值/终值）(Q3GDP修正值)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-10-29T08:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "美债",
+      "原油",
+      "工业金属"
+    ],
+    "note": "每月最后一个周四附近发布上季度 GDP 的三次估算之一。",
+    "source": "rule:us_gdp",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "medium",
+    "tags": [
+      "us_gdp"
+    ]
+  },
+  {
+    "uid": "1b331f8a111d",
+    "name": "欧洲央行 ECB 议息会议",
+    "category": "monetary",
+    "region": "EU",
+    "datetime": "2026-10-29T14:15:00+01:00",
+    "tz": "Europe/Frankfurt",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "欧股",
+      "欧元",
+      "银行",
+      "奢侈品",
+      "汽车"
+    ],
+    "note": "14:15 公布利率决议，14:45 拉加德新闻发布会。日期请每年对照官网核对。",
+    "source": "rule:ecb_meeting",
+    "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+    "confidence": "medium",
+    "tags": [
+      "ecb_meeting"
+    ]
+  },
+  {
+    "uid": "e1d823c75741",
+    "name": "微软（MSFT）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-29T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/25 - 11/2，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "软件与云计算",
+      "云计算",
+      "AI应用",
+      "算力资本开支"
+    ],
+    "note": "Azure 增速与资本开支指引是算力链核心变量",
+    "source": "earnings:MSFT",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "软件与云计算",
+      "MSFT"
+    ]
+  },
+  {
+    "uid": "e832e5b58189",
+    "name": "谷歌（GOOGL）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-29T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/25 - 11/2，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "软件与云计算",
+      "云计算",
+      "AI",
+      "互联网广告",
+      "TPU链"
+    ],
+    "note": "",
+    "source": "earnings:GOOGL",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "软件与云计算",
+      "GOOGL"
     ]
   }
 ]
