@@ -1350,5 +1350,173 @@
       "软件与云计算",
       "GOOGL"
     ]
+  },
+  {
+    "uid": "01d58de45378",
+    "name": "日本央行 BOJ 金融政策会议",
+    "category": "monetary",
+    "region": "JP",
+    "datetime": "2026-10-30T12:00:00+09:00",
+    "tz": "Asia/Tokyo",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "日元套息交易",
+      "日股",
+      "全球流动性",
+      "有色"
+    ],
+    "note": "决议时间不固定(约 11:30-13:00)，15:30 行长记者会。加息预期会引发日元套息平仓、全球风险资产波动。",
+    "source": "rule:boj_meeting",
+    "source_url": "https://www.boj.or.jp/en/mopo/mpmsche_minu/index.htm",
+    "confidence": "medium",
+    "tags": [
+      "boj_meeting"
+    ]
+  },
+  {
+    "uid": "f77a52561394",
+    "name": "比亚迪（002594）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-30T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/24 - 11/5，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "新能源与汽车",
+      "新能源车",
+      "汽车零部件",
+      "功率半导体"
+    ],
+    "note": "每月 1-3 日公布月度销量快报",
+    "source": "earnings:002594",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "新能源与汽车",
+      "002594"
+    ]
+  },
+  {
+    "uid": "ff8c3d3321a3",
+    "name": "五粮液（000858）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-30T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/24 - 11/5，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "白酒与消费",
+      "白酒",
+      "食品饮料"
+    ],
+    "note": "",
+    "source": "earnings:000858",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "白酒与消费",
+      "000858"
+    ]
+  },
+  {
+    "uid": "4d27fec56694",
+    "name": "中信证券（600030）三季报 · 盘后",
+    "category": "earnings",
+    "region": "CN",
+    "datetime": "2026-10-30T16:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 10/24 - 11/5，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "金融",
+      "券商",
+      "非银金融"
+    ],
+    "note": "",
+    "source": "earnings:600030",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "金融",
+      "600030"
+    ]
+  },
+  {
+    "uid": "7ee3cb19ee14",
+    "name": "亚马逊（AMZN）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-30T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/26 - 11/3，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "软件与云计算",
+      "云计算",
+      "电商",
+      "跨境电商",
+      "物流"
+    ],
+    "note": "",
+    "source": "earnings:AMZN",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "软件与云计算",
+      "AMZN"
+    ]
+  },
+  {
+    "uid": "3048f7770986",
+    "name": "苹果（AAPL）Q3财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-30T16:20:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/26 - 11/3，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费电子",
+      "苹果产业链",
+      "面板",
+      "声学",
+      "结构件",
+      "组装代工"
+    ],
+    "note": "同时关注每年 9 月上旬新品发布会，对产业链拉动大于财报本身",
+    "source": "earnings:AAPL",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "消费电子",
+      "AAPL"
+    ]
   }
 ]
