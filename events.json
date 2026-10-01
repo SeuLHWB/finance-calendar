@@ -1,33 +1,5 @@
 [
   {
-    "uid": "df7b4ceb8140",
-    "name": "中国官方制造业/非制造业 PMI(9月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-09-30T09:30:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "周期股",
-      "工程机械",
-      "钢铁",
-      "有色",
-      "券商"
-    ],
-    "note": "国家统计局每月最后一日发布（遇节假日会前移，如春节/国庆）。",
-    "source": "rule:cn_pmi_official",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_pmi_official"
-    ]
-  },
-  {
     "uid": "bf9482fa1b82",
     "name": "美国 ISM 制造业 PMI(9月)",
     "category": "macro",
@@ -1461,6 +1433,34 @@
     ]
   },
   {
+    "uid": "b0bbf9fa2851",
+    "name": "埃克森美孚（XOM）Q3财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-10-30T07:30:00-04:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/27 - 11/4，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "能源与资源",
+      "原油",
+      "石化",
+      "能源"
+    ],
+    "note": "",
+    "source": "earnings:XOM",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "能源与资源",
+      "XOM"
+    ]
+  },
+  {
     "uid": "7ee3cb19ee14",
     "name": "亚马逊（AMZN）Q3财报 · 盘后",
     "category": "earnings",
@@ -1517,6 +1517,58 @@
     "tags": [
       "消费电子",
       "AAPL"
+    ]
+  },
+  {
+    "uid": "cc0401899c26",
+    "name": "中国官方制造业/非制造业 PMI(10月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-10-31T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "周期股",
+      "工程机械",
+      "钢铁",
+      "有色",
+      "券商"
+    ],
+    "note": "国家统计局每月最后一日发布（遇节假日会前移，如春节/国庆）。",
+    "source": "rule:cn_pmi_official",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_pmi_official"
+    ]
+  },
+  {
+    "uid": "d52470be55ea",
+    "name": "A股三季报披露截止日",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-10-31T20:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "A股全市场"
+    ],
+    "note": "三季报是全年业绩兑现度的关键验证点。",
+    "source": "rule:a_q3_deadline",
+    "source_url": "http://www.sse.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "a_q3_deadline"
     ]
   }
 ]
