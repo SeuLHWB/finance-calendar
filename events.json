@@ -1,33 +1,5 @@
 [
   {
-    "uid": "bf9482fa1b82",
-    "name": "美国 ISM 制造业 PMI(9月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-10-01T10:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "工业金属",
-      "化工",
-      "机械",
-      "航运",
-      "原油"
-    ],
-    "note": "每月第一个工作日发布，荣枯线 50。",
-    "source": "rule:us_ism_mfg",
-    "source_url": "https://www.ismworld.org/",
-    "confidence": "high",
-    "tags": [
-      "us_ism_mfg"
-    ]
-  },
-  {
     "uid": "b9d669e2c6fd",
     "name": "美国非农就业报告(9月)",
     "category": "macro",
