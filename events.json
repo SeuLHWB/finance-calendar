@@ -1,33 +1,5 @@
 [
   {
-    "uid": "000a0433bf05",
-    "name": "OPEC+ 部长级 / JMMC 产量会议",
-    "category": "extra",
-    "region": "GLOBAL",
-    "datetime": "2026-10-03T09:00:00+02:00",
-    "tz": "Europe/Berlin",
-    "all_day": true,
-    "window": "预计 10月1-6日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "原油",
-      "石化",
-      "油服",
-      "航空",
-      "航运"
-    ],
-    "note": "2025 年后多为线上会议、日期临时确定，务必以官网公告为准；增产/减产决定直接冲击油价。",
-    "source": "rule:opec_meeting",
-    "source_url": "https://www.opec.org/opec_web/en/press_room/calendar.htm",
-    "confidence": "low",
-    "tags": [
-      "opec_meeting"
-    ]
-  },
-  {
     "uid": "0ea149bf9b3a",
     "name": "美国 ISM 非制造业 PMI(9月)",
     "category": "macro",
@@ -1566,6 +1538,61 @@
     "confidence": "high",
     "tags": [
       "us_ism_mfg"
+    ]
+  },
+  {
+    "uid": "b5825141e961",
+    "name": "美国中期选举",
+    "category": "policy",
+    "region": "US",
+    "datetime": "2026-11-03T09:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": true,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股全市场",
+      "军工",
+      "新能源",
+      "医药",
+      "关税受损/受益链",
+      "人民币汇率"
+    ],
+    "note": "改选全部众议院席位与约三分之一参议院席位，决定后两年政策推进能力，对关税、财政与产业补贴路径影响巨大。",
+    "source": "manual",
+    "source_url": "",
+    "confidence": "high",
+    "tags": []
+  },
+  {
+    "uid": "ae09503f2a11",
+    "name": "AMD（AMD）Q4财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-11-03T16:20:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 10/30 - 11/7，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "GPU",
+      "CPU",
+      "服务器"
+    ],
+    "note": "",
+    "source": "earnings:AMD",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "AMD"
     ]
   }
 ]
