@@ -1594,5 +1594,30 @@
       "AI算力与半导体",
       "AMD"
     ]
+  },
+  {
+    "uid": "96b7226dc799",
+    "name": "美国 ISM 非制造业 PMI(10月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-11-04T10:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "服务业"
+    ],
+    "note": "每月第三个工作日发布。",
+    "source": "rule:us_ism_svc",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_svc"
+    ]
   }
 ]
