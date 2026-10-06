@@ -1,30 +1,5 @@
 [
   {
-    "uid": "0ea149bf9b3a",
-    "name": "美国 ISM 非制造业 PMI(9月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-10-05T10:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股消费",
-      "服务业"
-    ],
-    "note": "每月第三个工作日发布。",
-    "source": "rule:us_ism_svc",
-    "source_url": "https://www.ismworld.org/",
-    "confidence": "high",
-    "tags": [
-      "us_ism_svc"
-    ]
-  },
-  {
     "uid": "b55e4e429107",
     "name": "美联储 FOMC 会议纪要",
     "category": "monetary",
@@ -1618,6 +1593,31 @@
     "confidence": "high",
     "tags": [
       "us_ism_svc"
+    ]
+  },
+  {
+    "uid": "71c14c207510",
+    "name": "英国央行 BOE 议息会议",
+    "category": "monetary",
+    "region": "UK",
+    "datetime": "2026-11-05T12:00:00+00:00",
+    "tz": "Europe/London",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "英镑",
+      "欧股"
+    ],
+    "note": "日期以官网为准。",
+    "source": "rule:boe_meeting",
+    "source_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "confidence": "medium",
+    "tags": [
+      "boe_meeting"
     ]
   }
 ]
