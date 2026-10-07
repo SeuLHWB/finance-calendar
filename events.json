@@ -1619,5 +1619,34 @@
     "tags": [
       "boe_meeting"
     ]
+  },
+  {
+    "uid": "4d35147474a3",
+    "name": "美国非农就业报告(10月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-11-06T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股科技",
+      "美债",
+      "美元指数",
+      "航运",
+      "有色"
+    ],
+    "note": "北京时间 20:30(夏令时)/21:30(冬令时)。同步公布失业率与时薪增速，是美联储决策的核心就业指标。",
+    "source": "rule:us_nfp",
+    "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "confidence": "high",
+    "tags": [
+      "us_nfp"
+    ]
   }
 ]
