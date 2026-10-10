@@ -1,34 +1,5 @@
 [
   {
-    "uid": "0e0b27337c06",
-    "name": "中国 CPI / PPI(9月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-10-09T09:30:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "食品饮料",
-      "农业",
-      "化工",
-      "钢铁",
-      "煤炭",
-      "银行"
-    ],
-    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
-    "source": "rule:cn_cpi_ppi",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_cpi_ppi"
-    ]
-  },
-  {
     "uid": "bca2d2d6fdd3",
     "name": "台积电月度营收（TSM-REV）三季报 · 盘中/收盘后",
     "category": "earnings",
@@ -1594,6 +1565,35 @@
     "confidence": "medium",
     "tags": [
       "cn_trade"
+    ]
+  },
+  {
+    "uid": "277d948a56f8",
+    "name": "中国 CPI / PPI(10月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-11-09T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "食品饮料",
+      "农业",
+      "化工",
+      "钢铁",
+      "煤炭",
+      "银行"
+    ],
+    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
+    "source": "rule:cn_cpi_ppi",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_cpi_ppi"
     ]
   }
 ]
