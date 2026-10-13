@@ -1,87 +1,5 @@
 [
   {
-    "uid": "6f24d70cadc2",
-    "name": "中国社融 / 新增信贷 / M2(9月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-10-12T16:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 10月9-15日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "非银金融",
-      "地产",
-      "基建"
-    ],
-    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
-    "source": "rule:cn_credit",
-    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
-    "confidence": "medium",
-    "tags": [
-      "cn_credit"
-    ]
-  },
-  {
-    "uid": "51584ef0ac36",
-    "name": "美国 CPI 消费者物价指数(9月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-10-12T08:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10月10-14日 公布",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "贵金属",
-      "美股",
-      "美债",
-      "原油",
-      "美元指数"
-    ],
-    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
-    "source": "rule:us_cpi",
-    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
-    "confidence": "high",
-    "tags": [
-      "us_cpi"
-    ]
-  },
-  {
-    "uid": "4cd6116f504e",
-    "name": "美国国债拍卖（10 年 / 30 年期为主）",
-    "category": "extra",
-    "region": "US",
-    "datetime": "2026-10-12T13:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10月8-13日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美债收益率",
-      "美股成长股",
-      "贵金属",
-      "REITs"
-    ],
-    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
-    "source": "rule:us_treasury_refunding",
-    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
-    "confidence": "medium",
-    "tags": [
-      "us_treasury_refunding"
-    ]
-  },
-  {
     "uid": "34fca1ab9921",
     "name": "美股财报季开启（大型银行打头阵）",
     "category": "extra",
@@ -1648,6 +1566,88 @@
     "confidence": "medium",
     "tags": [
       "us_treasury_refunding"
+    ]
+  },
+  {
+    "uid": "d446d7446c0c",
+    "name": "APEC 领导人非正式会议（中国主办）",
+    "category": "policy",
+    "region": "CN",
+    "datetime": "2026-11-12T09:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": true,
+    "window": "预计 11 月中旬",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "主办地区域概念",
+      "免税",
+      "航空",
+      "跨境贸易"
+    ],
+    "note": "2026 年 APEC 由中国主办，关注主场外交与区域经贸主题。日期待官方确认。",
+    "source": "manual",
+    "source_url": "",
+    "confidence": "low",
+    "tags": []
+  },
+  {
+    "uid": "bd1cd28768d6",
+    "name": "腾讯控股（0700）三季报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-11-12T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 11/7 - 11/17，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "互联网（港股）",
+      "港股互联网",
+      "游戏",
+      "广告",
+      "云计算",
+      "恒生科技"
+    ],
+    "note": "",
+    "source": "earnings:0700",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "互联网（港股）",
+      "0700"
+    ]
+  },
+  {
+    "uid": "be59f010c0ad",
+    "name": "中国社融 / 新增信贷 / M2(10月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-11-12T16:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 11月9-15日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "非银金融",
+      "地产",
+      "基建"
+    ],
+    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
+    "source": "rule:cn_credit",
+    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
+    "confidence": "medium",
+    "tags": [
+      "cn_credit"
     ]
   }
 ]
