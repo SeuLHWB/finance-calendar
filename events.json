@@ -1,84 +1,5 @@
 [
   {
-    "uid": "34fca1ab9921",
-    "name": "美股财报季开启（大型银行打头阵）",
-    "category": "extra",
-    "region": "US",
-    "datetime": "2026-10-14T07:00:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10月12-16日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股银行",
-      "美股全市场"
-    ],
-    "note": "摩根大通/花旗/富国等率先发布，为财报季定调。",
-    "source": "rule:us_earnings_season",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "us_earnings_season"
-    ]
-  },
-  {
-    "uid": "8614dac0fe60",
-    "name": "摩根大通（JPM）Q3财报 · 美股盘前",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-10-14T07:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10/11 - 10/17，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "金融",
-      "美股银行",
-      "全球金融"
-    ],
-    "note": "美股财报季首发，为整季定调",
-    "source": "earnings:JPM",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "金融",
-      "JPM"
-    ]
-  },
-  {
-    "uid": "704732486913",
-    "name": "阿斯麦（ASML）Q3财报 · 美股盘前",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-10-14T07:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10/11 - 10/17，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "半导体设备",
-      "光刻机"
-    ],
-    "note": "",
-    "source": "earnings:ASML",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "ASML"
-    ]
-  },
-  {
     "uid": "8257dc321cc2",
     "name": "台积电（TSM）Q3财报 · 美股盘前",
     "category": "earnings",
@@ -1648,6 +1569,85 @@
     "confidence": "medium",
     "tags": [
       "cn_credit"
+    ]
+  },
+  {
+    "uid": "abec6042b2a2",
+    "name": "MSCI 指数季度评审（公布日）",
+    "category": "extra",
+    "region": "GLOBAL",
+    "datetime": "2026-11-12T09:00:00+01:00",
+    "tz": "Europe/Zurich",
+    "all_day": true,
+    "window": "预计 11月10-15日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "A股外资重仓股",
+      "港股",
+      "被动资金流"
+    ],
+    "note": "公布纳入/剔除名单，生效日一般在当月最后一个交易日收盘后，被动资金调仓集中在生效日尾盘。",
+    "source": "rule:msci_review",
+    "source_url": "https://www.msci.com/index-review",
+    "confidence": "medium",
+    "tags": [
+      "msci_review"
+    ]
+  },
+  {
+    "uid": "6361dbe72b5d",
+    "name": "美国 CPI 消费者物价指数(10月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-11-12T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 11月10-14日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "原油",
+      "美元指数"
+    ],
+    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
+    "source": "rule:us_cpi",
+    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_cpi"
+    ]
+  },
+  {
+    "uid": "52ad9df4f9d1",
+    "name": "沪深300 / 中证500 等指数定期调样",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-11-13T17:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "指数基金重仓股",
+      "ETF 资金流"
+    ],
+    "note": "中证指数公司通常在 5 月/11 月公布调样方案，6 月/12 月第二个周五的下一交易日生效。",
+    "source": "rule:csi300_review",
+    "source_url": "https://www.csindex.com.cn/",
+    "confidence": "medium",
+    "tags": [
+      "csi300_review"
     ]
   }
 ]
