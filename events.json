@@ -1,31 +1,5 @@
 [
   {
-    "uid": "42c3aeb33285",
-    "name": "中国季度 GDP(Q3GDP)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-10-17T10:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 10月15-18日 公布",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "全市场",
-      "券商",
-      "周期股"
-    ],
-    "note": "与月度经济数据同场发布。",
-    "source": "rule:cn_gdp",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_gdp"
-    ]
-  },
-  {
     "uid": "d4a3d3fc088f",
     "name": "宁德时代（300750）三季报 · 盘后",
     "category": "earnings",
