@@ -1,35 +1,5 @@
 [
   {
-    "uid": "d4a3d3fc088f",
-    "name": "宁德时代（300750）三季报 · 盘后",
-    "category": "earnings",
-    "region": "CN",
-    "datetime": "2026-10-19T16:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 10/12 - 10/24，以公司公告为准",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "新能源与汽车",
-      "锂电池",
-      "锂电材料",
-      "储能",
-      "新能源车",
-      "锂矿"
-    ],
-    "note": "A股新能源链定海神针，业绩与产能利用率指引带动整条锂电链",
-    "source": "earnings:300750",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "新能源与汽车",
-      "300750"
-    ]
-  },
-  {
     "uid": "280d392a9534",
     "name": "中共二十届五中全会（预计）",
     "category": "policy",
@@ -1566,6 +1536,60 @@
     "confidence": "medium",
     "tags": [
       "us_retail"
+    ]
+  },
+  {
+    "uid": "c1d04c7bb269",
+    "name": "小米集团（1810）三季报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-11-18T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 11/12 - 11/24，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费电子",
+      "智能汽车",
+      "AIoT"
+    ],
+    "note": "",
+    "source": "earnings:1810",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "消费电子",
+      "1810"
+    ]
+  },
+  {
+    "uid": "9c49d6383afa",
+    "name": "美联储 FOMC 会议纪要",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-11-18T14:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "贵金属",
+      "美债",
+      "美元指数"
+    ],
+    "note": "会议结束后三周整公布，用于确认票委内部分歧。",
+    "source": "rule:fomc_minutes",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_minutes"
     ]
   }
 ]
