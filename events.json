@@ -1591,5 +1591,37 @@
     "tags": [
       "fomc_minutes"
     ]
+  },
+  {
+    "uid": "c69732d488b5",
+    "name": "英伟达（NVDA）Q4财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-11-19T16:20:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 11/14 - 11/24，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "AI算力",
+      "光模块",
+      "PCB",
+      "液冷温控",
+      "服务器",
+      "半导体设备",
+      "电源"
+    ],
+    "note": "全球AI产业链风向标，财报后A股/港股算力链次日高开低走或共振是常态",
+    "source": "earnings:NVDA",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "NVDA"
+    ]
   }
 ]
