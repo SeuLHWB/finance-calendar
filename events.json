@@ -1,87 +1,5 @@
 [
   {
-    "uid": "280d392a9534",
-    "name": "中共二十届五中全会（预计）",
-    "category": "policy",
-    "region": "CN",
-    "datetime": "2026-10-20T09:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": true,
-    "window": "预计 10 月下旬，具体日期以中央公告为准",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "全市场",
-      "新质生产力",
-      "科技自主",
-      "改革主题"
-    ],
-    "note": "全会时点与议题需以官方公告为准，本条为占位提醒，收到正式通知后请更新。",
-    "source": "manual",
-    "source_url": "",
-    "confidence": "low",
-    "tags": []
-  },
-  {
-    "uid": "9c7a58fd8bb7",
-    "name": "中国 LPR 贷款市场报价利率(10月)",
-    "category": "monetary",
-    "region": "CN",
-    "datetime": "2026-10-20T09:15:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "银行",
-      "地产",
-      "建材",
-      "家电",
-      "基建",
-      "消费"
-    ],
-    "note": "每月 20 日 9:15 公布 1 年期与 5 年期以上 LPR；遇节假日顺延。5 年期变动对地产链影响最大。",
-    "source": "rule:cn_lpr",
-    "source_url": "http://www.pbc.gov.cn/",
-    "confidence": "high",
-    "tags": [
-      "cn_lpr"
-    ]
-  },
-  {
-    "uid": "294b37e81776",
-    "name": "紫金矿业（601899）三季报 · 盘后",
-    "category": "earnings",
-    "region": "CN",
-    "datetime": "2026-10-20T16:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 10/14 - 10/26，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "能源与资源",
-      "黄金",
-      "铜",
-      "有色金属"
-    ],
-    "note": "",
-    "source": "earnings:601899",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "能源与资源",
-      "601899"
-    ]
-  },
-  {
     "uid": "0431223165fd",
     "name": "特斯拉（TSLA）Q3财报 · 盘后",
     "category": "earnings",
@@ -1622,6 +1540,90 @@
     "tags": [
       "AI算力与半导体",
       "NVDA"
+    ]
+  },
+  {
+    "uid": "446c7556e887",
+    "name": "中国 LPR 贷款市场报价利率(11月)",
+    "category": "monetary",
+    "region": "CN",
+    "datetime": "2026-11-20T09:15:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "地产",
+      "建材",
+      "家电",
+      "基建",
+      "消费"
+    ],
+    "note": "每月 20 日 9:15 公布 1 年期与 5 年期以上 LPR；遇节假日顺延。5 年期变动对地产链影响最大。",
+    "source": "rule:cn_lpr",
+    "source_url": "http://www.pbc.gov.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_lpr"
+    ]
+  },
+  {
+    "uid": "60e133f56ad4",
+    "name": "A股股指期货 / 期权交割日(11月)",
+    "category": "extra",
+    "region": "CN",
+    "datetime": "2026-11-20T15:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "沪深300",
+      "中证500",
+      "中证1000",
+      "券商"
+    ],
+    "note": "IF/IH/IC/IM 与股指期权在每月第三个周五交割，尾盘常有『交割日效应』。",
+    "source": "rule:cn_index_futures_settle",
+    "source_url": "http://www.cffex.com.cn/",
+    "confidence": "high",
+    "tags": [
+      "cn_index_futures_settle"
+    ]
+  },
+  {
+    "uid": "2c6db391b3e2",
+    "name": "沃尔玛（WMT）Q4财报 · 美股盘前",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-11-20T07:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 11/16 - 11/24，以公司公告为准",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "白酒与消费",
+      "美股零售",
+      "跨境电商",
+      "消费"
+    ],
+    "note": "",
+    "source": "earnings:WMT",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "白酒与消费",
+      "WMT"
     ]
   }
 ]
