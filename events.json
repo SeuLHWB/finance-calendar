@@ -1572,6 +1572,34 @@
     ]
   },
   {
+    "uid": "7953aece12b5",
+    "name": "美团（3690）三季报 · 盘中/收盘后",
+    "category": "earnings",
+    "region": "HK",
+    "datetime": "2026-11-20T12:00:00+08:00",
+    "tz": "Asia/Hong_Kong",
+    "all_day": false,
+    "window": "预计 11/15 - 11/27，以公司公告为准",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "互联网（港股）",
+      "本地生活",
+      "港股互联网",
+      "即时零售"
+    ],
+    "note": "",
+    "source": "earnings:3690",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "互联网（港股）",
+      "3690"
+    ]
+  },
+  {
     "uid": "60e133f56ad4",
     "name": "A股股指期货 / 期权交割日(11月)",
     "category": "extra",
