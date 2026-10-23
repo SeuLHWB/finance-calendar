@@ -1,35 +1,5 @@
 [
   {
-    "uid": "0431223165fd",
-    "name": "特斯拉（TSLA）Q3财报 · 盘后",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-10-22T16:20:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10/18 - 10/26，以公司公告为准",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "新能源与汽车",
-      "新能源车",
-      "锂电",
-      "汽车零部件",
-      "人形机器人",
-      "自动驾驶"
-    ],
-    "note": "另有每季度初的交付量快报（1/4/7/10 月 2 日前后），对产业链影响同样显著",
-    "source": "earnings:TSLA",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "新能源与汽车",
-      "TSLA"
-    ]
-  },
-  {
     "uid": "6e08d5d69fc0",
     "name": "中国央行 MLF 中期借贷便利操作(10月)",
     "category": "monetary",
