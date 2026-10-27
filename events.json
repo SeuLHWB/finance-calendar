@@ -1457,5 +1457,32 @@
     "tags": [
       "cn_mlf"
     ]
+  },
+  {
+    "uid": "dfdce5c78ed9",
+    "name": "美国 GDP（初值/修正值/终值）(Q4GDP修正值)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-11-26T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股",
+      "美债",
+      "原油",
+      "工业金属"
+    ],
+    "note": "每月最后一个周四附近发布上季度 GDP 的三次估算之一。",
+    "source": "rule:us_gdp",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "medium",
+    "tags": [
+      "us_gdp"
+    ]
   }
 ]
