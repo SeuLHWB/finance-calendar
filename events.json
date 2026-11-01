@@ -1,85 +1,5 @@
 [
   {
-    "uid": "b0bbf9fa2851",
-    "name": "埃克森美孚（XOM）Q3财报 · 美股盘前",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-10-30T07:30:00-04:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10/27 - 11/4，以公司公告为准",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "能源与资源",
-      "原油",
-      "石化",
-      "能源"
-    ],
-    "note": "",
-    "source": "earnings:XOM",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "能源与资源",
-      "XOM"
-    ]
-  },
-  {
-    "uid": "cc0401899c26",
-    "name": "中国官方制造业/非制造业 PMI(10月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-10-31T09:30:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "周期股",
-      "工程机械",
-      "钢铁",
-      "有色",
-      "券商"
-    ],
-    "note": "国家统计局每月最后一日发布（遇节假日会前移，如春节/国庆）。",
-    "source": "rule:cn_pmi_official",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_pmi_official"
-    ]
-  },
-  {
-    "uid": "d52470be55ea",
-    "name": "A股三季报披露截止日",
-    "category": "extra",
-    "region": "CN",
-    "datetime": "2026-10-31T20:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "A股全市场"
-    ],
-    "note": "三季报是全年业绩兑现度的关键验证点。",
-    "source": "rule:a_q3_deadline",
-    "source_url": "http://www.sse.com.cn/",
-    "confidence": "high",
-    "tags": [
-      "a_q3_deadline"
-    ]
-  },
-  {
     "uid": "e9869b1d7bfa",
     "name": "财新中国制造业 PMI(11月)",
     "category": "macro",
@@ -978,6 +898,60 @@
     "confidence": "high",
     "tags": [
       "us_pce"
+    ]
+  },
+  {
+    "uid": "d2a8151478ec",
+    "name": "财新中国制造业 PMI(12月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-12-01T09:45:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "中小企业",
+      "出口链",
+      "制造业"
+    ],
+    "note": "样本偏中小型与出口型企业，与官方 PMI 常有背离。",
+    "source": "rule:cn_pmi_caixin",
+    "source_url": "https://www.caixinglobal.com/",
+    "confidence": "high",
+    "tags": [
+      "cn_pmi_caixin"
+    ]
+  },
+  {
+    "uid": "4355c06b9524",
+    "name": "美国 ISM 制造业 PMI(11月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-12-01T10:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "工业金属",
+      "化工",
+      "机械",
+      "航运",
+      "原油"
+    ],
+    "note": "每月第一个工作日发布，荣枯线 50。",
+    "source": "rule:us_ism_mfg",
+    "source_url": "https://www.ismworld.org/",
+    "confidence": "high",
+    "tags": [
+      "us_ism_mfg"
     ]
   }
 ]
