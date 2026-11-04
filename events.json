@@ -1,60 +1,5 @@
 [
   {
-    "uid": "b5825141e961",
-    "name": "美国中期选举",
-    "category": "policy",
-    "region": "US",
-    "datetime": "2026-11-03T09:00:00-05:00",
-    "tz": "America/New_York",
-    "all_day": true,
-    "window": "",
-    "importance": 5,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股全市场",
-      "军工",
-      "新能源",
-      "医药",
-      "关税受损/受益链",
-      "人民币汇率"
-    ],
-    "note": "改选全部众议院席位与约三分之一参议院席位，决定后两年政策推进能力，对关税、财政与产业补贴路径影响巨大。",
-    "source": "manual",
-    "source_url": "",
-    "confidence": "high",
-    "tags": []
-  },
-  {
-    "uid": "ae09503f2a11",
-    "name": "AMD（AMD）Q4财报 · 盘后",
-    "category": "earnings",
-    "region": "US",
-    "datetime": "2026-11-03T16:20:00-05:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 10/30 - 11/7，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "GPU",
-      "CPU",
-      "服务器"
-    ],
-    "note": "",
-    "source": "earnings:AMD",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "AMD"
-    ]
-  },
-  {
     "uid": "96b7226dc799",
     "name": "美国 ISM 非制造业 PMI(10月)",
     "category": "macro",
@@ -951,6 +896,35 @@
     "confidence": "high",
     "tags": [
       "us_ism_svc"
+    ]
+  },
+  {
+    "uid": "2390d2b1e6b6",
+    "name": "美国非农就业报告(11月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-12-04T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股科技",
+      "美债",
+      "美元指数",
+      "航运",
+      "有色"
+    ],
+    "note": "北京时间 20:30(夏令时)/21:30(冬令时)。同步公布失业率与时薪增速，是美联储决策的核心就业指标。",
+    "source": "rule:us_nfp",
+    "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+    "confidence": "high",
+    "tags": [
+      "us_nfp"
     ]
   }
 ]
