@@ -1,30 +1,5 @@
 [
   {
-    "uid": "71c14c207510",
-    "name": "英国央行 BOE 议息会议",
-    "category": "monetary",
-    "region": "UK",
-    "datetime": "2026-11-05T12:00:00+00:00",
-    "tz": "Europe/London",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "英镑",
-      "欧股"
-    ],
-    "note": "日期以官网为准。",
-    "source": "rule:boe_meeting",
-    "source_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
-    "confidence": "medium",
-    "tags": [
-      "boe_meeting"
-    ]
-  },
-  {
     "uid": "4d35147474a3",
     "name": "美国非农就业报告(10月)",
     "category": "macro",
