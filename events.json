@@ -847,5 +847,33 @@
     "tags": [
       "us_nfp"
     ]
+  },
+  {
+    "uid": "9f3743a5e2c2",
+    "name": "中国进出口数据（海关总署）(11月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-12-08T11:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 12月7-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "出口链",
+      "航运",
+      "家电",
+      "跨境电商",
+      "机械"
+    ],
+    "note": "关注对美出口与船舶/集装箱吞吐。",
+    "source": "rule:cn_trade",
+    "source_url": "http://www.customs.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_trade"
+    ]
   }
 ]
