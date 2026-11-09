@@ -1,33 +1,5 @@
 [
   {
-    "uid": "447a3184ee97",
-    "name": "中国进出口数据（海关总署）(10月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-11-08T11:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 11月7-13日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "出口链",
-      "航运",
-      "家电",
-      "跨境电商",
-      "机械"
-    ],
-    "note": "关注对美出口与船舶/集装箱吞吐。",
-    "source": "rule:cn_trade",
-    "source_url": "http://www.customs.gov.cn/",
-    "confidence": "medium",
-    "tags": [
-      "cn_trade"
-    ]
-  },
-  {
     "uid": "277d948a56f8",
     "name": "中国 CPI / PPI(10月)",
     "category": "macro",
@@ -874,6 +846,65 @@
     "confidence": "medium",
     "tags": [
       "cn_trade"
+    ]
+  },
+  {
+    "uid": "36fdeb95dcbc",
+    "name": "中国 CPI / PPI(11月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-12-09T09:30:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "食品饮料",
+      "农业",
+      "化工",
+      "钢铁",
+      "煤炭",
+      "银行"
+    ],
+    "note": "PPI 同比转正是顺周期板块的关键触发条件。",
+    "source": "rule:cn_cpi_ppi",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_cpi_ppi"
+    ]
+  },
+  {
+    "uid": "e7fd33df0d75",
+    "name": "美联储 FOMC 议息会议决议",
+    "category": "monetary",
+    "region": "US",
+    "datetime": "2026-12-09T14:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股科技",
+      "贵金属",
+      "银行",
+      "地产",
+      "美债",
+      "港股",
+      "A股外资敏感板块"
+    ],
+    "note": "北京时间次日凌晨 02:00 公布利率决议，02:30 鲍威尔新闻发布会；3/6/9/12 月会议附带经济预测摘要(SEP)与点阵图，影响更大。",
+    "source": "rule:fomc_meeting",
+    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+    "confidence": "high",
+    "tags": [
+      "fomc_meeting"
     ]
   }
 ]
