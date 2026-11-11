@@ -1,32 +1,5 @@
 [
   {
-    "uid": "69e2d4277479",
-    "name": "台积电月度营收（TSM-REV）三季报 · 盘中/收盘后",
-    "category": "earnings",
-    "region": "TW",
-    "datetime": "2026-11-10T14:00:00+08:00",
-    "tz": "Asia/Taipei",
-    "all_day": false,
-    "window": "预计 11月8-12日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "半导体代工",
-      "AI算力"
-    ],
-    "note": "每月 10 日左右公布上月营收，是最高频的AI景气跟踪指标",
-    "source": "earnings:TSM-REV",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "TSM-REV"
-    ]
-  },
-  {
     "uid": "b71409bfd64d",
     "name": "中芯国际（688981）三季报 · 盘后",
     "category": "earnings",
@@ -903,6 +876,89 @@
     "tags": [
       "AI算力与半导体",
       "TSM-REV"
+    ]
+  },
+  {
+    "uid": "f2709e2c06f8",
+    "name": "中央经济工作会议",
+    "category": "policy",
+    "region": "CN",
+    "datetime": "2026-12-11T09:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": true,
+    "window": "预计 12月8-14日 召开",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "全市场",
+      "地产",
+      "消费",
+      "科技",
+      "基建"
+    ],
+    "note": "定调次年宏观政策基调（如『适度宽松的货币政策』『更加积极的财政政策』），是年末最重要的政策会议。",
+    "source": "rule:cn_cewc",
+    "source_url": "https://www.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_cewc"
+    ]
+  },
+  {
+    "uid": "ba0221e43d98",
+    "name": "美国国债拍卖（10 年 / 30 年期为主）",
+    "category": "extra",
+    "region": "US",
+    "datetime": "2026-12-11T13:00:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 12月8-13日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美债收益率",
+      "美股成长股",
+      "贵金属",
+      "REITs"
+    ],
+    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
+    "source": "rule:us_treasury_refunding",
+    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
+    "confidence": "medium",
+    "tags": [
+      "us_treasury_refunding"
+    ]
+  },
+  {
+    "uid": "dfc44c1ab070",
+    "name": "博通（AVGO）Q4财报 · 盘后",
+    "category": "earnings",
+    "region": "US",
+    "datetime": "2026-12-11T16:20:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 12/6 - 12/16，以公司公告为准",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "AI算力与半导体",
+      "ASIC定制芯片",
+      "AI网络",
+      "光模块"
+    ],
+    "note": "定制ASIC与AI网络的核心标的",
+    "source": "earnings:AVGO",
+    "source_url": "",
+    "confidence": "medium",
+    "tags": [
+      "AI算力与半导体",
+      "AVGO"
     ]
   }
 ]
