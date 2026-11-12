@@ -1,59 +1,5 @@
 [
   {
-    "uid": "b71409bfd64d",
-    "name": "中芯国际（688981）三季报 · 盘后",
-    "category": "earnings",
-    "region": "CN",
-    "datetime": "2026-11-11T16:20:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 11/6 - 11/16，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "AI算力与半导体",
-      "晶圆代工",
-      "半导体国产化"
-    ],
-    "note": "",
-    "source": "earnings:688981",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "AI算力与半导体",
-      "688981"
-    ]
-  },
-  {
-    "uid": "1ecb61c2b3e7",
-    "name": "美国国债拍卖（10 年 / 30 年期为主）",
-    "category": "extra",
-    "region": "US",
-    "datetime": "2026-11-11T13:00:00-05:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 11月8-13日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美债收益率",
-      "美股成长股",
-      "贵金属",
-      "REITs"
-    ],
-    "note": "月中集中拍卖 3/10/30 年期；得标利率与投标倍数不佳会推升长端收益率、压制成长股估值。2/5/8/11 月还有季度再融资声明。",
-    "source": "rule:us_treasury_refunding",
-    "source_url": "https://www.treasurydirect.gov/auctions/upcoming/",
-    "confidence": "medium",
-    "tags": [
-      "us_treasury_refunding"
-    ]
-  },
-  {
     "uid": "d446d7446c0c",
     "name": "APEC 领导人非正式会议（中国主办）",
     "category": "policy",
@@ -959,6 +905,33 @@
     "tags": [
       "AI算力与半导体",
       "AVGO"
+    ]
+  },
+  {
+    "uid": "f0f779000a72",
+    "name": "中国社融 / 新增信贷 / M2(11月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-12-12T16:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 12月9-15日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "非银金融",
+      "地产",
+      "基建"
+    ],
+    "note": "央行不预告具体时点，通常在每月 9-15 日盘后突发公布，是判断宽信用节奏的核心。",
+    "source": "rule:cn_credit",
+    "source_url": "http://www.pbc.gov.cn/diaochatongjisi/",
+    "confidence": "medium",
+    "tags": [
+      "cn_credit"
     ]
   }
 ]
