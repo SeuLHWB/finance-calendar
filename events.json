@@ -1,30 +1,5 @@
 [
   {
-    "uid": "52ad9df4f9d1",
-    "name": "沪深300 / 中证500 等指数定期调样",
-    "category": "extra",
-    "region": "CN",
-    "datetime": "2026-11-13T17:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "指数基金重仓股",
-      "ETF 资金流"
-    ],
-    "note": "中证指数公司通常在 5 月/11 月公布调样方案，6 月/12 月第二个周五的下一交易日生效。",
-    "source": "rule:csi300_review",
-    "source_url": "https://www.csindex.com.cn/",
-    "confidence": "medium",
-    "tags": [
-      "csi300_review"
-    ]
-  },
-  {
     "uid": "4b22e0ca928b",
     "name": "中国月度经济数据（工业增加值/固投/社零）(10月)",
     "category": "macro",
@@ -796,6 +771,34 @@
     "confidence": "medium",
     "tags": [
       "cn_credit"
+    ]
+  },
+  {
+    "uid": "c553e185864d",
+    "name": "美国 CPI 消费者物价指数(11月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-12-14T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 12月10-14日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "原油",
+      "美元指数"
+    ],
+    "note": "核心 CPI 环比是市场焦点；发布日通常为每月 10-14 日的工作日。",
+    "source": "rule:us_cpi",
+    "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+    "confidence": "high",
+    "tags": [
+      "us_cpi"
     ]
   }
 ]
