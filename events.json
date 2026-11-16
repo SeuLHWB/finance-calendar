@@ -826,5 +826,58 @@
     "tags": [
       "us_ppi"
     ]
+  },
+  {
+    "uid": "25b1dd784f02",
+    "name": "中国月度经济数据（工业增加值/固投/社零）(11月)",
+    "category": "macro",
+    "region": "CN",
+    "datetime": "2026-12-16T10:00:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "预计 12月15-18日 公布",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "消费",
+      "地产",
+      "基建",
+      "制造业"
+    ],
+    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
+    "source": "rule:cn_monthly_econ",
+    "source_url": "https://www.stats.gov.cn/sj/",
+    "confidence": "high",
+    "tags": [
+      "cn_monthly_econ"
+    ]
+  },
+  {
+    "uid": "6ec146b67e6c",
+    "name": "美国零售销售(11月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-12-16T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 12月14-18日 公布",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "美股消费",
+      "电商",
+      "跨境电商"
+    ],
+    "note": "衡量美国消费韧性。",
+    "source": "rule:us_retail",
+    "source_url": "https://www.census.gov/retail/",
+    "confidence": "medium",
+    "tags": [
+      "us_retail"
+    ]
   }
 ]
