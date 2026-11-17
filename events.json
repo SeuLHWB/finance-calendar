@@ -1,84 +1,5 @@
 [
   {
-    "uid": "4b22e0ca928b",
-    "name": "中国月度经济数据（工业增加值/固投/社零）(10月)",
-    "category": "macro",
-    "region": "CN",
-    "datetime": "2026-11-16T10:00:00+08:00",
-    "tz": "Asia/Shanghai",
-    "all_day": false,
-    "window": "预计 11月15-18日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "消费",
-      "地产",
-      "基建",
-      "制造业"
-    ],
-    "note": "统计局月度新闻发布会，1-2 月数据合并在 3 月中旬发布。",
-    "source": "rule:cn_monthly_econ",
-    "source_url": "https://www.stats.gov.cn/sj/",
-    "confidence": "high",
-    "tags": [
-      "cn_monthly_econ"
-    ]
-  },
-  {
-    "uid": "091473123e4a",
-    "name": "美国 PPI 生产者物价指数(10月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-11-16T08:30:00-05:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 11月12-17日 公布",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "工业金属",
-      "化工",
-      "美债"
-    ],
-    "note": "通常在 CPI 后 1-3 天公布，可用于推算 PCE。",
-    "source": "rule:us_ppi",
-    "source_url": "https://www.bls.gov/schedule/news_release/ppi.htm",
-    "confidence": "high",
-    "tags": [
-      "us_ppi"
-    ]
-  },
-  {
-    "uid": "f4525697e029",
-    "name": "美国零售销售(10月)",
-    "category": "macro",
-    "region": "US",
-    "datetime": "2026-11-16T08:30:00-05:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "预计 11月14-18日 公布",
-    "importance": 3,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股消费",
-      "电商",
-      "跨境电商"
-    ],
-    "note": "衡量美国消费韧性。",
-    "source": "rule:us_retail",
-    "source_url": "https://www.census.gov/retail/",
-    "confidence": "medium",
-    "tags": [
-      "us_retail"
-    ]
-  },
-  {
     "uid": "c1d04c7bb269",
     "name": "小米集团（1810）三季报 · 盘中/收盘后",
     "category": "earnings",
@@ -878,6 +799,59 @@
     "confidence": "medium",
     "tags": [
       "us_retail"
+    ]
+  },
+  {
+    "uid": "2dd47c67a68e",
+    "name": "英国央行 BOE 议息会议",
+    "category": "monetary",
+    "region": "UK",
+    "datetime": "2026-12-17T12:00:00+00:00",
+    "tz": "Europe/London",
+    "all_day": false,
+    "window": "",
+    "importance": 3,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "英镑",
+      "欧股"
+    ],
+    "note": "日期以官网为准。",
+    "source": "rule:boe_meeting",
+    "source_url": "https://www.bankofengland.co.uk/monetary-policy/upcoming-mpc-dates",
+    "confidence": "medium",
+    "tags": [
+      "boe_meeting"
+    ]
+  },
+  {
+    "uid": "73c2b841fe31",
+    "name": "欧洲央行 ECB 议息会议",
+    "category": "monetary",
+    "region": "EU",
+    "datetime": "2026-12-17T14:15:00+01:00",
+    "tz": "Europe/Frankfurt",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "欧股",
+      "欧元",
+      "银行",
+      "奢侈品",
+      "汽车"
+    ],
+    "note": "14:15 公布利率决议，14:45 拉加德新闻发布会。日期请每年对照官网核对。",
+    "source": "rule:ecb_meeting",
+    "source_url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+    "confidence": "medium",
+    "tags": [
+      "ecb_meeting"
     ]
   }
 ]
