@@ -1,59 +1,5 @@
 [
   {
-    "uid": "c1d04c7bb269",
-    "name": "小米集团（1810）三季报 · 盘中/收盘后",
-    "category": "earnings",
-    "region": "HK",
-    "datetime": "2026-11-18T12:00:00+08:00",
-    "tz": "Asia/Hong_Kong",
-    "all_day": false,
-    "window": "预计 11/12 - 11/24，以公司公告为准",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "消费电子",
-      "智能汽车",
-      "AIoT"
-    ],
-    "note": "",
-    "source": "earnings:1810",
-    "source_url": "",
-    "confidence": "medium",
-    "tags": [
-      "消费电子",
-      "1810"
-    ]
-  },
-  {
-    "uid": "9c49d6383afa",
-    "name": "美联储 FOMC 会议纪要",
-    "category": "monetary",
-    "region": "US",
-    "datetime": "2026-11-18T14:00:00-05:00",
-    "tz": "America/New_York",
-    "all_day": false,
-    "window": "",
-    "importance": 4,
-    "prev": "",
-    "forecast": "",
-    "actual": "",
-    "sectors": [
-      "美股",
-      "贵金属",
-      "美债",
-      "美元指数"
-    ],
-    "note": "会议结束后三周整公布，用于确认票委内部分歧。",
-    "source": "rule:fomc_minutes",
-    "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-    "confidence": "high",
-    "tags": [
-      "fomc_minutes"
-    ]
-  },
-  {
     "uid": "c69732d488b5",
     "name": "英伟达（NVDA）Q4财报 · 盘后",
     "category": "earnings",
