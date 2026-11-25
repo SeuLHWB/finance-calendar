@@ -817,5 +817,31 @@
     "tags": [
       "cn_lpr"
     ]
+  },
+  {
+    "uid": "728faac6cb3c",
+    "name": "中国央行 MLF 中期借贷便利操作(12月)",
+    "category": "monetary",
+    "region": "CN",
+    "datetime": "2026-12-25T09:20:00+08:00",
+    "tz": "Asia/Shanghai",
+    "all_day": false,
+    "window": "",
+    "importance": 4,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "银行",
+      "债券",
+      "地产"
+    ],
+    "note": "2024 年 7 月起 MLF 操作移至每月 25 日左右，政策利率地位已让位于 7 天期逆回购利率，更多观察量而非价。",
+    "source": "rule:cn_mlf",
+    "source_url": "http://www.pbc.gov.cn/",
+    "confidence": "medium",
+    "tags": [
+      "cn_mlf"
+    ]
   }
 ]
