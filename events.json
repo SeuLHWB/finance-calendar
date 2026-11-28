@@ -761,5 +761,32 @@
     "tags": [
       "cn_mlf"
     ]
+  },
+  {
+    "uid": "c1aef8dfecf9",
+    "name": "美国 PCE 物价指数（美联储首选通胀指标）(11月)",
+    "category": "macro",
+    "region": "US",
+    "datetime": "2026-12-28T08:30:00-05:00",
+    "tz": "America/New_York",
+    "all_day": false,
+    "window": "预计 12月26-31日 公布",
+    "importance": 5,
+    "prev": "",
+    "forecast": "",
+    "actual": "",
+    "sectors": [
+      "贵金属",
+      "美股",
+      "美债",
+      "美元指数"
+    ],
+    "note": "月末公布，核心 PCE 同比是美联储 2% 通胀目标的锚。",
+    "source": "rule:us_pce",
+    "source_url": "https://www.bea.gov/news/schedule",
+    "confidence": "high",
+    "tags": [
+      "us_pce"
+    ]
   }
 ]
